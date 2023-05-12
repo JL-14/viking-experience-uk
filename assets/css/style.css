@@ -25,5 +25,19 @@
 }
 
 /*Nav-links*/
+.nav-links {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 120%;
+    color: #402e32;
+}
 
+.nav-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
 
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
