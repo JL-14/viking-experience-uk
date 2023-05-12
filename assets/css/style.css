@@ -13,7 +13,9 @@
     width: 100%;
     padding: 22px;
     position: relative;
-    display: inline;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*Title*/
@@ -23,7 +25,6 @@
     color: #402e32;
     text-align: center;
     position: relative;
-    display: inline;
 }
 
 /*Nav-links*/
@@ -31,7 +32,6 @@
     font-family: Josefin Sans, sans-serif;
     font-size: 120%;
     color: #402e32;
-    display: inline;
 }
 
 .nav-links li {
