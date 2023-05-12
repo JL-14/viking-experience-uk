@@ -49,3 +49,26 @@
     border-bottom: 1px solid #402e32;
 }
 
+/*Main image*/
+.main-image {
+    margin-left: -40px;
+}
+
+/*Cover text*/
+#cover-text {
+    background-color: rgba(192, 147, 54, .5);
+    
+    font-size: 130%;
+    font-family: Josefin Sans, sans-serif;
+    color: #402e32;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 700px;
+    height: 50px;
+
+    top: 150px;
+    left: 200px;
+
+    position: absolute;
+}
