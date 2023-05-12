@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #fff8f0;
+}
+
+/*Header container*/
+.header {
+    height: 75px;
+    width: 100%;
+    padding: 22px;
+    position: relative;
+}
+
+/*Title*/
+#title {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 300%;
+    color: #402e32;
+    text-align: center;
+    position: relative;
+}
+
+/*Nav-links*/
+
+
