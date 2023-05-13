@@ -76,3 +76,11 @@ body {
 
     position: absolute;
 }
+
+/*Intro text*/
+.intro {
+    font-family: Source Sans Pro, sans-serif;
+    color: #402e32;
+    padding: 20px;
+    margin-left: 25px;
+}
