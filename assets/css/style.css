@@ -40,7 +40,7 @@ body {
 .nav-links li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .nav-links li a {
@@ -78,9 +78,11 @@ body {
 }
 
 /*Intro text*/
-.intro {
+.text {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
     padding: 20px;
     margin-left: 25px;
+    margin-right: 25px;
 }
+
