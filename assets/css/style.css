@@ -94,5 +94,26 @@ h3 {
 .package-links {
     font-family: Source Sans Pro, sans-serif;
     font-size: 100%;
+    font-weight: bold;
     display: inline-flex;
+    align-content: center;
+    position: relative;
+}
+
+.package-links li {
+    float: center;
+    list-style-type: none;
+    padding: 30px;
+    justify-content: space-around;
+    display: inline-flex;
+    margin-left: 120px;
+}
+
+.package-links li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.package-links a:hover {
+    border-bottom: 1px solid #402e32;
 }
