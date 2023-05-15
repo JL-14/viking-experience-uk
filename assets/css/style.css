@@ -106,7 +106,7 @@ h3 {
     padding: 30px;
     justify-content: space-around;
     display: inline-flex;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .package-links li a {
@@ -119,5 +119,5 @@ h3 {
 }
 
 #packages {
-    
+
 }
