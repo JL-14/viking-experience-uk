@@ -121,7 +121,8 @@ h3 {
 }
 
 #reception {
-    margin-left: 120px;
+    font-size: 80%;
+    text-align: center;
 }
 
 footer {
@@ -169,4 +170,13 @@ footer>a {
 #socialmedia li a {
     text-decoration: none;
     color: inherit;
+}
+
+/*Packages page*/
+table {
+    font-family: Source Sans Pro, sans-serif;
+    color: #402e32;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
