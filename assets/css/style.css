@@ -176,7 +176,18 @@ footer>a {
 table {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
+    background: #fff;    
     padding: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 20px 50px;
+    border-collapse: collapse;
+    border: 1px solid #402e32;
+    border-style: ridge;
+    border-color: #c09336;
+    border-width: 10px;
+}
+
+td {
+    border: 1px solid #402e32;
+    padding: 10px;
+    text-align: center;
 }
