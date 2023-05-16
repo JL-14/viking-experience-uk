@@ -6,6 +6,24 @@
     border: 0;
 }
 
+/*Background color for page*/
+body {
+    background-color: #fff8f0;
+}
+
+/*Text styling*/
+.text {
+    font-family: Source Sans Pro, sans-serif;
+    color: #402e32;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h2, h3 {
+    font-family: Josefin Sans, sans-serif;
+}
+
 /*Header container*/
 .header {
     height: 75px;
@@ -15,11 +33,6 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-}
-
-/*Background color for page*/
-body {
-    background-color: #fff8f0;
 }
 
 /*Title*/
@@ -76,19 +89,6 @@ body {
     left: 200px;
 
     position: absolute;
-}
-
-/*Text styling*/
-.text {
-    font-family: Source Sans Pro, sans-serif;
-    color: #402e32;
-    padding: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-h3 {
-    font-family: Josefin Sans, sans-serif;
 }
 
 /*Link to packages*/
