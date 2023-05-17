@@ -201,6 +201,10 @@ td {
     padding-left: 10px;
 }
 
-#submit-date {
-    
+.button {
+    color: #fff8f0;
+    background: #c09336;
+    border: 1px solid #402e32;
+    font-weight: bold;
+    padding: 5px;
 }
