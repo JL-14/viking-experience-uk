@@ -191,3 +191,16 @@ td {
     padding: 10px;
     text-align: center;
 }
+
+/*Drop-down date selector*/
+#seafaring-dates, #camp-dates, #arts-crafts-dates {
+    color: #402e32;
+    background-color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+    border: 1px solid #402e32;
+    padding-left: 10px;
+}
+
+#submit-date {
+    
+}
