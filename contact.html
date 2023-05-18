@@ -45,29 +45,32 @@
 <body>
 <h2>Contact Us</h2>
 <h3>To enquire about booking or anything else, please complete the form below or call us on 01493 856100</h3>
-
-<form id="contact" method="post" action="#">
+<br>
+<form class="contact" method="post" action="#">
     <fieldset>
         <legend>Personal Details</legend>
         <p>
-            <label for="name">Name: </label>
-            <input type="text" name="name" id="name" required>
+            <label for="name" class="fixedwidth">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
         </p>
         <p>
-            <label for="email">E-mail address: </label>
-            <input type="email" name="email" id="email" required>
+            <label for="email" class="fixedwidth">E-mail address: </label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail address" required>
         </p>
         <p>
-            <label for="telephone">Phone number (optional)</label>
-            <input type="text" name="telephone" id="telephone">
+            <label for="telephone" class="fixedwidth">Phone number (optional)</label>
+            <input type="text" name="telephone" id="telephone" placeholder="Your phone number">
         </p>
+        <br>
         <p>
-            <textarea name="name" rows="14" cols="70" id="name">Please enter your query here</textarea>
+            <textarea name="query" rows="14" cols="70" id="query" placeholder="Please enter your query here"></textarea>
         </p>
+        <br>
         <p>
-            <input type="submit" value="Submit Query">
+            <input type="submit" value="Submit Query" id="submit-query">
         </p>
     </fieldset>
+    <br>
 
 </form>
         <div>

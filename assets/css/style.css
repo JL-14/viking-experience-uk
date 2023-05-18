@@ -208,3 +208,31 @@ td {
     font-weight: bold;
     padding: 5px;
 }
+
+/*Contact page*/
+
+/*Query Form*/
+fieldset {
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: bold;
+    color: #402e32;
+    border: 3px solid #402e32;
+    border-style: inset;
+    margin: 0 50px;
+    width: 250px;
+    padding: 15px;
+}
+
+#submit-query {
+    float: right;
+    padding: 5px 15px;
+    color: #c09336;
+    background: #402e32;
+    border: 1px solid #c09336;
+}
+
+.fixedwidth {
+    display: block;
+    width: 220px;
+    float: left;
+}
