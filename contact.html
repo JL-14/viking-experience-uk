@@ -44,9 +44,30 @@
 
 <body>
 <h2>Contact Us</h2>
-<h3>To enquire about booking or anything else, please complete the form below or call us on NNNNN NNNNNN</h3>
+<h3>To enquire about booking or anything else, please complete the form below or call us on 01493 856100</h3>
 
 <form id="contact" method="post" action="#">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <p>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+        </p>
+        <p>
+            <label for="email">E-mail address: </label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="telephone">Phone number (optional)</label>
+            <input type="text" name="telephone" id="telephone">
+        </p>
+        <p>
+            <textarea name="name" rows="14" cols="70" id="name">Please enter your query here</textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit Query">
+        </p>
+    </fieldset>
 
 </form>
         <div>
