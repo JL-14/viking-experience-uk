@@ -231,6 +231,14 @@ footer>a {
 }
 
 /*Packages page*/
+#package-heading {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 200%;
+    color: #402e32;
+
+    margin-left: 45px;
+}
+
 table {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
@@ -265,6 +273,19 @@ td {
     border: 1px solid #402e32;
     font-weight: bold;
     padding: 5px;
+    border-radius: 10%;
+}
+
+.return {
+    color: #402e32;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 80%;
+    text-decoration: none;
+    padding: 10px;
+}
+    
+.return a:hover {
+    border-bottom: 1px solid #402e32;
 }
 
 /*Contact page*/
