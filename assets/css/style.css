@@ -13,7 +13,7 @@ body {
 /*Background image for page*/
 .main-image {
     width: 1200px;
-    height: 800px;
+    height: 400px;
 
     background-image: url("../images/main-image.jpg");
     background-attachment: fixed;
@@ -100,25 +100,23 @@ h2, h3 {
     border-bottom: 1px solid #402e32;
 }
 
+.outer-container {
+    background-image: url("../images/main-image.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    
+    background-color: #fff8f0;
+}
+
 /*Intro section*/
 .intro-text {
     background-color: #fff8f0;
     padding: 25px;
 }
 
-/*About section*/
-.about-text {
-    background-color: #fff8f0;
-    padding: 25px;
-}
-
-/*Location section*/
-.location-text {
-    background-color: #fff8f0;
-    padding: 25px;
-}
-
-/*Link to packages*/
+/*Package-links section*/
 .package-links {
     font-family: Source Sans Pro, sans-serif;
     font-size: 100%;
@@ -127,6 +125,10 @@ h2, h3 {
     display: inline-flex;
     align-content: center;
     position: relative;
+
+    background: #fff8f0;
+    padding: 25px;
+    margin-left: 25px;
 }
 
 .package-links li {
@@ -145,6 +147,18 @@ h2, h3 {
 
 .package-links a:hover {
     border-bottom: 1px solid #402e32;
+}
+
+/*About section*/
+.about-text {
+    background-color: #fff8f0;
+    padding: 25px;
+}
+
+/*Location section*/
+.location-text {
+    background-color: #fff8f0;
+    padding: 25px;
 }
 
 #reception {
@@ -168,6 +182,7 @@ footer {
     z-index: 3;
 }
 
+/*Footer section*/
 footer>span {
     color: #c09336;
 }
