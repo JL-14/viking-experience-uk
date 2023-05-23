@@ -163,6 +163,7 @@ h2, h3 {
 .location-text {
     background-color: #fff8f0;
     padding: 25px;
+    margin-top: -20px;
 }
 
 #reception {
