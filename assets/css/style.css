@@ -134,6 +134,17 @@ h2, h3 {
 
 }
 
+#seafaring-link {
+    border-radius: 50%;
+}
+
+#camp-link {
+    border-radius: 50%;
+}
+#arts-crafts-link {
+    border-radius: 50%;
+}
+
 .package-links li {
     float: center;
     align-items: center;
