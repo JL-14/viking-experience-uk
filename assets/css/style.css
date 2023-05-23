@@ -240,6 +240,10 @@ footer>a {
     margin-left: 45px;
 }
 
+.package-image {
+    padding: 15px;
+}
+
 table {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
@@ -306,9 +310,10 @@ fieldset {
 #submit-query {
     float: right;
     padding: 5px 15px;
-    color: #c09336;
+    color: #fff8f0;
     background: #402e32;
-    border: 1px solid #c09336;
+    border: 3px solid #c09336;
+    border-radius: 25%;
 }
 
 .fixedwidth {
