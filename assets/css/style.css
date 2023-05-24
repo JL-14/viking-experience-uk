@@ -278,6 +278,14 @@ td {
     padding: 10px;
 }
 
+#shipbuilding-image {
+    padding-left: 60px;
+}
+
+#ravens-image {
+    padding-left: 130px;
+}
+
 .camp-images {
     display: inline-flex;
     justify: space-around;
