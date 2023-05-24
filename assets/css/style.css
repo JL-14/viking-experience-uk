@@ -182,9 +182,8 @@ h2, h3 {
     margin-top: -20px;
 }
 
-.location-text {
-    background-color: #fff8f0;
-    padding: 25px;
+#location-text {
+    padding-right: 425px;
 }
 
 #reception {
