@@ -257,7 +257,8 @@ table {
     color: #402e32;
     background: #fff;    
     padding: 20px;
-    margin: 20px 50px;
+    margin-right: 40px;
+    margin-left:40px; 
     border-collapse: collapse;
     border: 1px solid #402e32;
     border-style: ridge;
@@ -269,6 +270,24 @@ td {
     border: 1px solid #402e32;
     padding: 10px;
     text-align: center;
+}
+
+.seafaring-images {
+    display: inline-flex;
+    justify: space-around;
+    padding: 10px;
+}
+
+.camp-images {
+    display: inline-flex;
+    justify: space-around;
+    padding: 10px;
+}
+
+.arts-crafts-images {
+    display: inline-flex;
+    justify: space-around;
+    padding: 10px;
 }
 
 /*Drop-down date selector*/
