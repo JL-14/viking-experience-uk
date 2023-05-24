@@ -310,10 +310,28 @@ td {
 .button {
     color: #fff8f0;
     background: #c09336;
-    border: 1px solid #402e32;
+    border: 2px solid #402e32;
     font-weight: bold;
-    padding: 5px;
-    border-radius: 10%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 7px;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: 0 4px 14px 0 #402e32;
+    transition: background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+:hover {
+    background: rgba(255, 248, 240, 0.9);
+    color: #402e32;
+    box-shadow: 0 6px 20px #402e32);
 }
 
 .return {
