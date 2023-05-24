@@ -320,12 +320,8 @@ td {
     color: #402e32;
     font-family: Source Sans Pro, sans-serif;
     font-size: 80%;
-    text-decoration: none;
+
     padding: 10px;
-}
-    
-.return a:hover {
-    border-bottom: 1px solid #402e32;
 }
 
 /*Contact page*/
