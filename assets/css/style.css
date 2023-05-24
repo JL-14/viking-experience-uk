@@ -282,7 +282,7 @@ td {
     padding-left: 60px;
 }
 
-#ravens-image {
+#craftsman-image {
     padding-left: 130px;
 }
 
@@ -307,6 +307,11 @@ td {
     padding-left: 10px;
 }
 
+#table {
+    display: inline-block;
+    margin: 25px;
+}
+
 .button {
     color: #fff8f0;
     background: #c09336;
@@ -319,7 +324,7 @@ td {
     line-height: 25px;
     border-radius: 7px;
     border: none;
-    display: inline-block;
+
     outline: 0;
     cursor: pointer;
     box-shadow: 0 4px 14px 0 #402e32;
@@ -338,8 +343,13 @@ td {
     color: #402e32;
     font-family: Source Sans Pro, sans-serif;
     font-size: 80%;
-
     padding: 10px;
+}
+
+.booking-return-buttons {
+    margin-top: -80px;
+    display: inline-block;
+    
 }
 
 /*Contact page*/
