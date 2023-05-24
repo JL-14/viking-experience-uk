@@ -137,13 +137,16 @@ h2, h3 {
 
 #seafaring-link {
     border-radius: 50%;
+    border: 2px solid #402e32;
 }
 
 #camp-link {
     border-radius: 50%;
+    border: 2px solid #402e32;
 }
 #arts-crafts-link {
     border-radius: 50%;
+    border: 2px solid #402e32;
 }
 
 .package-links li {
@@ -172,10 +175,16 @@ h2, h3 {
 }
 
 /*Location section*/
-.location-text {
+
+#location-background {
     background-color: #fff8f0;
     padding: 25px;
     margin-top: -20px;
+}
+
+.location-text {
+    background-color: #fff8f0;
+    padding: 25px;
 }
 
 #reception {
