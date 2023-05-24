@@ -328,10 +328,10 @@ td {
     box-shadow 0.2s ease;
 }
 
-:hover {
+.button:hover {
     background: rgba(255, 248, 240, 0.9);
     color: #402e32;
-    box-shadow: 0 6px 20px #402e32);
+    box-shadow: 0 6px 20px #402e32;
 }
 
 .return {
