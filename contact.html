@@ -44,34 +44,39 @@
 
 <body>
 <section class="main-image"></section>
-    <h2>Contact Us</h2>
-    <h3>To enquire about booking or anything else, please complete the form below or call us on 01493 856100</h3>
+    <h2 class="text">Contact Us</h2>
+    <h3 class="text">To enquire about booking or anything else, please complete the form below or call us on 01493 856100</h3>
 <br>
 <a id="contact-form"></a>
+<section class="contact">
 <form class="contact" method="post" action="#">
-    <fieldset>
+    <fieldset id="personal-details">
         <legend>Personal Details</legend>
         <p>
-            <label for="name" class="fixedwidth">Name: </label>
+            <label for="name" class="fixedwidth">Name (required): </label>
             <input type="text" name="name" id="name" placeholder="Your name" required>
         </p>
         <p>
-            <label for="email" class="fixedwidth">E-mail address: </label>
+            <label for="email" class="fixedwidth">E-mail address (required): </label>
             <input type="email" name="email" id="email" placeholder="Your e-mail address" required>
         </p>
         <p>
-            <label for="telephone" class="fixedwidth">Phone number (optional)</label>
+            <label for="telephone" class="fixedwidth">Phone number (optional): </label>
             <input type="text" name="telephone" id="telephone" placeholder="Your phone number">
         </p>
+        </fieldset>
         <br>
+        <fieldset id="query-field">
+            <legend>Query or Comments</legend>     
         <p>
             <textarea name="query" rows="14" cols="70" id="query" placeholder="Please enter your query here"></textarea>
         </p>
+        </fieldset>
         <br>
-        <p>
-            <input type="submit" value="Submit Query" id="submit-query">
-        </p>
-    </fieldset>
+
+            <button class="submit-button" type="submit" name="submit">Send Message!
+            </button>
+
     <br>
 </form>
         <div>
