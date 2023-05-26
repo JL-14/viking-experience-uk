@@ -126,13 +126,32 @@
             <textarea name="query" rows="14" cols="72" id="query" placeholder="Please enter your query here"></textarea>
         </p>
         </fieldset>
-        <br>
+        <p class="text"><strong>Please review our Terms and Conditions, and indicate whether you are happy for a member 
+            of our team to contact you regarding the query or booking: </strong></p>
+
+        <p class="text">Please tick to indicate that you have read and accept our Terms and Conditions:</p>
+            <input type="checkbox" name="t-and-c" id="t-and-c">
+        <div class="text">
+            What is the best method and time for us to contact you about your query or booking?
+            <input type="radio" name="query-call" id="email-contact" value="email-contact">
+            <label for="email-contact">By E-mail</label>
+            <input type="radio" name="query-call" id="phone-morning" value="phone-morning">
+            <label for="phone-morning">By Phone -Morning</label>
+            <input type="radio" name="query-call" id="phone-afternoon" value="phone-afternoon">
+            <label for="phone-afternoon">By Phone -Afternoon</label>
+            <input type="radio" name="query-call" id="phone-evening" value="phone-evening">
+            <label for="phone-evening">By Phone -Evening</label>
+            <input type="radio" name="query-call" id="anytime" value="no-preference">
+            <label for="anytime">I don't mind how you contact me!</label>
+        </div>
 
             <button class="submit-button" type="submit" name="submit">Send Message!
             </button>
 
     <br>
 </form>
+
+
 
 <!--Footer-->
         <div>
