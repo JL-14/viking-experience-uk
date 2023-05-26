@@ -357,7 +357,7 @@ fieldset {
     border: 2px solid #402e32;
     border-style: inset;
     margin: 0 50px;
-    width: 250px;
+    width: 33%;
     padding: 15px;
 }
 
@@ -409,8 +409,9 @@ fieldset {
 
 .fixedwidth {
     display: block;
-    width: 220px;
-    float: left;
+    width: 200px;
+    float: center;
+    padding: 5px;
 }
 
 /*Dates and date selection*/
@@ -425,4 +426,19 @@ fieldset {
 
 #booking {
     width: 513px;
+}
+
+
+.checkboxes label {
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.checkboxes input {
+    vertical-align: middle;
+}
+
+.checkboxes label span {
+    vertical-align: middle;
 }
