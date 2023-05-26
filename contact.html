@@ -126,13 +126,18 @@
             <textarea name="query" rows="14" cols="72" id="query" placeholder="Please enter your query here"></textarea>
         </p>
         </fieldset>
-        <p class="text"><strong>Please review our Terms and Conditions, and indicate whether you are happy for a member 
+        <p class="text"><strong>If booking, please review our Terms and Conditions and indicate whether you are happy for a member 
             of our team to contact you regarding the query or booking: </strong></p>
 
-        <p class="text">Please tick to indicate that you have read and accept our Terms and Conditions:</p>
-            <input type="checkbox" name="t-and-c" id="t-and-c">
         <div class="text">
+            <label for="t-and-c">I have read and accept the Terms and Conditions for booking
+            and am happy for you to contact me:</label>
+            <input type="checkbox" name="t-and-c" id="t-and-c" required>
+        </div>
+        <div class="text">
+            <div class="contact-types">
             What is the best method and time for us to contact you about your query or booking?
+            </div>
             <input type="radio" name="query-call" id="email-contact" value="email-contact">
             <label for="email-contact">By E-mail</label>
             <input type="radio" name="query-call" id="phone-morning" value="phone-morning">

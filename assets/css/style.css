@@ -442,3 +442,11 @@ fieldset {
 .checkboxes label span {
     vertical-align: middle;
 }
+
+#t-and-c {
+    display: inline-block;
+}
+
+.contact-types {
+    padding-bottom: 10px;
+}
