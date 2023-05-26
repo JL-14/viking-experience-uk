@@ -374,6 +374,16 @@ fieldset {
     width: 513px;
 }
 
+.contact-intro {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 120%;
+    font-weight: bolder;
+    color: #402e32;
+    padding: 10px;
+    
+    margin-left: 35px;
+}
+
 .submit-button {
     color: #fff8f0;
     background: #c09336;
