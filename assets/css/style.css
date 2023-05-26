@@ -298,15 +298,6 @@ td {
     padding: 10px;
 }
 
-/*Drop-down date selector*/
-#seafaring-dates, #camp-dates, #arts-crafts-dates {
-    color: #402e32;
-    background-color: #fff;
-    font-family: Source Sans Pro, sans-serif;
-    border: 1px solid #402e32;
-    padding-left: 10px;
-}
-
 #table {
     display: inline-block;
     margin: 25px;
@@ -420,4 +411,18 @@ fieldset {
     display: block;
     width: 220px;
     float: left;
+}
+
+/*Dates and date selection*/
+#dates {
+    color: #402e32;
+    background-color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+
+    border: 1px solid #402e32;
+    padding-left: 10px;
+}
+
+#booking {
+    width: 513px;
 }

@@ -66,18 +66,63 @@
         </p>
         </fieldset>
         <br>
+        <!--Dropdown menus with dates-->
         <fieldset id="booking">
             <legend>Booking</legend>
             <p>
-                Which Experience are you interested in?
+                Which Experience would you like to book?
             </p>
             <br>
-                <input type="radio" name="booking" value="seafaring">Seafaring Experience
-                <input type="radio" name="booking" value="camp">Camp Experience
-                <input type="radio" name="booking" value="arts-crafts">Arts & Crafts Experience
 
+        <!--Radio buttons-->
+        <div>
+            <input type="radio" name="seafaring-booking" value="1" />
+            <label for="seafaring-booking" class="fixedwidth">Seafaring Experience</label>
+
+            <select id="dates" class="fixedwidth">
+                <option>Available Seafaring Dates</option>
+                <option>Wed 7 June 2023</option>
+                <option>Sun 11 June 2023</option>
+                <option>Wed 5 July 2023</option>
+                <option>Sun 9 July 2023</option>
+                <option>Wed 9 Aug 2023</option>
+                <option>Sun 13 Aug 2023</option>
+            </select>
+        </div>
+
+        <div>
+        <input type="radio" name="camp-booking" value="2" />
+        <label for="camp-booking" class="fixedwidth">Camp Experience</label>
+
+            <select id="dates" class="fixedwidth">
+                <option>Available Camp Dates</option>
+                <option>Sat 17-Sun 18 June 2023</option>
+                <option>Wed 21-Thu 22 June 2023</option>
+                <option>Sat 15-Sun 16 July 2023</option>
+                <option>Wed 19-Thu 20 July 2023</option>
+                <option>Sat 19-Sun 20 Aug 2023</option>
+                <option>Wed 23-Thu 24 Aug 2023</option>
+            </select>
+        </div>
+
+        <div>
+        <input type="radio" name="arts-crafts-booking" value="3" />
+        <label for="arts-crafts-booking" class="fixedwidth">Arts & Crafts Experience</label>
+        
+            <select id="dates" class="fixedwidth">
+                <option>Available Arts & Crafts Dates</option>
+                <option>Tue 6 June 2023</option>
+                <option>Sat 10 June 2023</option>
+                <option>Tue 4 July 2023</option>
+                <option>Sat 8 July 2023</option>
+                <option>Tue 8 Aug 2023</option>
+                <option>Sat 12 Aug 2023</option>
+            </select>
+        </div>
         </fieldset>
         <br>
+
+        <!--Query Open Text-->
         <fieldset id="query-field">
             <legend>Query or Comments</legend>     
         <p>
@@ -91,6 +136,8 @@
 
     <br>
 </form>
+
+<!--Footer-->
         <div>
             <footer class="footer">
                 <a href="index.html">Home</a>
