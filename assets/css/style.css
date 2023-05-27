@@ -126,27 +126,12 @@ h2, h3 {
     display: inline-flex;
     
     align-content: center;
-    position: relative;
+    position: absolute;
 
     background: #fff8f0;
     padding: 25px;
-    padding-right: 215px;
+    padding-right: 175px;
     margin-left: 45px;
-
-}
-
-#seafaring-link {
-    border-radius: 50%;
-    border: 2px solid #402e32;
-}
-
-#camp-link {
-    border-radius: 50%;
-    border: 2px solid #402e32;
-}
-#arts-crafts-link {
-    border-radius: 50%;
-    border: 2px solid #402e32;
 }
 
 .package-links li {
@@ -166,6 +151,25 @@ h2, h3 {
 
 .package-links a:hover {
     border-bottom: 1px solid #402e32;
+}
+
+#seafaring-link-image {
+    margin-left: 40px;
+}
+
+#seafaring-link {
+    border-radius: 50%;
+    border: 2px solid #402e32;
+}
+
+#camp-link {
+    border-radius: 50%;
+    border: 2px solid #402e32;
+}
+
+#arts-crafts-link {
+    border-radius: 50%;
+    border: 2px solid #402e32;
 }
 
 /*About section*/
@@ -273,8 +277,8 @@ td {
 }
 
 .seafaring-images {
-    display: inline-flex;
-    justify: space-around;
+    display: flex;
+    justify-content: space-around;
     padding: 10px;
 }
 
@@ -282,26 +286,26 @@ td {
     padding-left: 60px;
 }
 
-#craftsman-image {
-    padding-left: 130px;
-}
-
 .camp-images {
-    display: inline-flex;
-    justify: space-around;
+    display: flex;
+    justify-content: space-around;
     padding: 10px;
 }
 
 .arts-crafts-images {
-    display: inline-flex;
-    justify: space-around;
+    display: flex;
+    justify-content: space-around;
     padding: 10px;
+}
+
+#craftsman-image {
+    padding-left: 130px;
 }
 
 #table {
     display: inline-block;
     margin: 25px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 .button {
@@ -380,6 +384,7 @@ fieldset {
     height: 400px;
     width: 100%;
     display: inline-flex;
+    margin-left: 130px;
 }
 
 #query-submit {
@@ -387,6 +392,7 @@ fieldset {
     width: 864px;
     display: inline-flex;
     flex-wrap: wrap;
+    margin-left: 130px;
 }
 
 #personal-details {
