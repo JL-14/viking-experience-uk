@@ -413,7 +413,7 @@ fieldset {
 
 .fixedwidth {
     display: block;
-    width: 200px;
+    width: 400px;
     float: center;
     padding: 5px;
 }
