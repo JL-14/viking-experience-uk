@@ -43,14 +43,17 @@
 </header>
 
 <body>
+    <!--Intro paragraph-->
 <section class="main-image"></section>
     <h2 class="contact-intro">Contact Us</h2>
     <h3 class="contact-intro">To enquire about booking or anything else, please complete the form below or call us on 01493 856100</h3>
-<br>
+    <br>
 <a id="contact-form"></a>
 
-<section class="contact">
+<!--Form section-->
     <form class="contact" method="post" action="#">
+        <section id="details-booking">
+        <div>
         <fieldset id="personal-details">
             <legend>Personal Details</legend>
             <p>
@@ -66,21 +69,23 @@
                 <input type="text" name="telephone" class="fixedwidth" id="telephone" placeholder="Your phone number">
             </p>
         </fieldset>
-    <br>
+        </div>
+        <br>
 
         <!--Booking section-->
+        <div>
         <fieldset id="booking">
             <legend>Booking</legend>
             <p>
                 Which Experience would you like to book?
             </p>
-    <br>
+        <br>
 
         <!--Checkbox buttons and dates-->
         <div>
-        <label class="fixedwidth"><input type="checkbox" name="seafaring-booking" value="1">
+        <label class="fixedwidth-dates"><input type="checkbox" name="seafaring-booking" value="1">
             Seafaring Experience</label>  
-            <select id="dates" class="fixedwidth">
+            <select id="dates" class="fixedwidth-dates">
                 <option>Available Seafaring Dates</option>
                 <option>Wed 7 June 2023</option>
                 <option>Sun 11 June 2023</option>
@@ -92,9 +97,9 @@
         </div>
 
         <div>
-        <label class="fixedwidth"><input type="checkbox" name="camp-booking" value="2">
+        <label class="fixedwidth-dates"><input type="checkbox" name="camp-booking" value="2">
             Camp Experience</label>
-            <select id="dates" class="fixedwidth">
+            <select id="dates" class="fixedwidth-dates">
                 <option>Available Camp Dates</option>
                 <option>Sat 17-Sun 18 June 2023</option>
                 <option>Wed 21-Thu 22 June 2023</option>
@@ -106,9 +111,9 @@
         </div>
 
         <div>
-        <label class="fixedwidth"><input type="checkbox" name="arts-crafts-booking" value="3">
+        <label class="fixedwidth-dates"><input type="checkbox" name="arts-crafts-booking" value="3">
             Arts & Crafts Experience</label>
-            <select id="dates" class="fixedwidth">
+            <select id="dates" class="fixedwidth-dates">
                 <option>Available Arts & Crafts Dates</option>
                 <option>Tue 6 June 2023</option>
                 <option>Sat 10 June 2023</option>
@@ -119,15 +124,23 @@
             </select>
         </div>
         </fieldset>
-    <br>
+        </div>
+        </section>
+        <br>
 
         <!--Query Open Text-->
+        <section id="query-submit">
+        <div>
         <fieldset id="query-field">
             <legend>Query or Comments</legend>     
         <p>
-            <textarea name="query" rows="14" cols="72" id="query" placeholder="Please enter your query here"></textarea>
+            <textarea name="query" rows="14" cols="120" id="query" placeholder="Please enter your query here"></textarea>
         </p>
         </fieldset>
+        </div>
+
+        <div>
+        <fieldset id="form-submit">
         <p class="text"><strong>If booking, please review our Terms and Conditions and indicate whether you are happy for a member 
             of our team to contact you regarding your query or booking: </strong></p>
 
@@ -154,10 +167,11 @@
 
             <button class="submit-button" type="submit" name="submit">Send Message!
             </button>
-    <br>
+        </fieldset>
+        </div>
+        </section>
+        <br>
     </form>
-</section>
-
 
 <!--Footer-->
         <div>

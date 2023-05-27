@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 1000px;
+    height: 1200px;
     background-color: #fff8f0;
 }
 
@@ -191,6 +191,7 @@ h2, h3 {
     text-align: center;
 }
 
+/*Footer section*/
 footer {
     background-color: #402e32;
     font-family: Josefin Sans, sans-serif;
@@ -207,7 +208,6 @@ footer {
     z-index: 3;
 }
 
-/*Footer section*/
 footer>span {
     color: #c09336;
 }
@@ -348,11 +348,22 @@ td {
 
 /*Contact page*/
 
-.contact {
-    
+.contact-intro {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 120%;
+    font-weight: bolder;
+    color: #402e32;
+    padding: 10px;
+
+    margin-left: 35px;
 }
 
-/*Query Form*/
+/*Form Section*/
+.contact {
+    width: 800px;
+    height: 80%;
+}
+
 fieldset {
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
@@ -361,22 +372,92 @@ fieldset {
     border: 2px solid #402e32;
     border-style: inset;
     margin: 0 50px;
-    width: 33%;
+
     padding: 15px;
 }
 
-#personal-details {
-    width: 513px;
+#details-booking {
+    height: 400px;
+    width: 100%;
+    display: inline-flex;
 }
 
-.contact-intro {
-    font-family: Josefin Sans, sans-serif;
-    font-size: 120%;
-    font-weight: bolder;
+#query-submit {
+    height: 400px;
+    width: 864px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#personal-details {
+    width: 400px;
+    height: 275px;
+}
+
+.fixedwidth {
+    display: block;
+    width: 350px;
+    float: center;
+    padding: 5px;
+}
+
+.fixedwidth-dates {
+    display: block;
+    width: 275px;
+    float: center;
+    padding: 5px;
+}
+
+/*Dates and date selection*/
+#booking {
+    width: 400px;
+    height: 275px;
+    margin-left: -20px;
+}
+
+#dates {
     color: #402e32;
-    padding: 10px;
-    
-    margin-left: 35px;
+    background-color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+
+    border: 1px solid #402e32;
+    padding-left: 10px;
+}
+
+/*Open query section*/
+#query-field {
+    width: 864px;
+    height: 100%px;
+    margin-top: -80px;
+}
+
+/*Submit section*/
+#form-submit {
+    width: 864px;
+    height: 100%;
+    border: none;
+    margin-top: -10px;
+}
+.checkboxes label {
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.checkboxes input {
+    vertical-align: middle;
+}
+
+.checkboxes label span {
+    vertical-align: middle;
+}
+
+#t-and-c {
+    display: inline-block;
+}
+
+.contact-types {
+    padding-bottom: 10px;
 }
 
 .submit-button {
@@ -409,48 +490,4 @@ fieldset {
     background: rgba(255, 248, 240, 0.9);
     color: #402e32;
     box-shadow: 0 6px 20px #402e32;
-}
-
-.fixedwidth {
-    display: block;
-    width: 400px;
-    float: center;
-    padding: 5px;
-}
-
-/*Dates and date selection*/
-#dates {
-    color: #402e32;
-    background-color: #fff;
-    font-family: Source Sans Pro, sans-serif;
-
-    border: 1px solid #402e32;
-    padding-left: 10px;
-}
-
-#booking {
-    width: 513px;
-}
-
-
-.checkboxes label {
-    display: inline-block;
-    padding-right: 10px;
-    white-space: nowrap;
-}
-
-.checkboxes input {
-    vertical-align: middle;
-}
-
-.checkboxes label span {
-    vertical-align: middle;
-}
-
-#t-and-c {
-    display: inline-block;
-}
-
-.contact-types {
-    padding-bottom: 10px;
 }
