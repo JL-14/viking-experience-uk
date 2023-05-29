@@ -295,6 +295,7 @@ footer>a {
 
 .package-image {
     padding: 20px;
+    float: right;
 }
 
 table {
@@ -302,9 +303,8 @@ table {
     color: #402e32;
     background: #fff;    
     padding: 20px;
-    margin-right: 40px;
-    margin-left: 40px; 
-    margin-top: 20px;
+    margin: 20px 40px;
+
     border-collapse: collapse;
     border: 1px solid #402e32;
     border-style: ridge;
@@ -312,7 +312,7 @@ table {
     border-width: 10px;
 
     display: inline-block;
-    margin-bottom: 10px;
+
 }
 
 td {
