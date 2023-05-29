@@ -242,6 +242,7 @@ footer>a {
     color: inherit;
 }
 
+/*Packages page*/
 #package-heading {
     font-family: Josefin Sans, sans-serif;
     font-size: 200%;
@@ -250,7 +251,6 @@ footer>a {
     margin-left: 0px;
 }
 
-/*Packages page*/
 .package-intro {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
@@ -303,7 +303,7 @@ table {
     color: #402e32;
     background: #fff;    
     padding: 20px;
-    margin: 20px 40px;
+    margin: 20px;
 
     border-collapse: collapse;
     border: 1px solid #402e32;
@@ -325,10 +325,6 @@ td {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-}
-
-#shipbuilding-image {
-    padding-left: 60px;
 }
 
 .camp-images {
