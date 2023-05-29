@@ -74,7 +74,6 @@ h2, h3 {
 /*Logo*/
 #logo {
     margin-left: 30px;
-
 }
 
 /*Nav-links*/
@@ -251,15 +250,17 @@ footer>a {
     margin-left: 0px;
 }
 
+/*Packages page*/
 .package-intro {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
     padding: 20px;
     margin-left: 25px;
     margin-right: 25px;
+
+    background-color: #fff8f0;
     }
 
-/*Packages page*/
 .seafaring-package {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
@@ -302,12 +303,16 @@ table {
     background: #fff;    
     padding: 20px;
     margin-right: 40px;
-    margin-left:40px; 
+    margin-left: 40px; 
+    margin-top: 20px;
     border-collapse: collapse;
     border: 1px solid #402e32;
     border-style: ridge;
     border-color: #c09336;
     border-width: 10px;
+
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 td {
@@ -340,13 +345,6 @@ td {
 
 #craftsman-image {
     padding-left: 130px;
-}
-
-#table {
-    display: inline-block;
-    margin: 25px;
-    margin-left: 25px;
-    margin-bottom: 10px;
 }
 
 .button {
@@ -383,12 +381,13 @@ td {
     font-family: Source Sans Pro, sans-serif;
     font-size: 80%;
     padding: 10px;
+    padding-bottom: 25px;
 }
 
 .booking-return-buttons {
     margin-top: -80px;
     display: inline-block;
-    
+    margin-bottom: 15px;
 }
 
 /*Contact page*/
