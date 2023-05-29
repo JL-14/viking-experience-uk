@@ -34,13 +34,14 @@ body {
     color: #402e32;
     letter-spacing: 4px;
     text-align: center;
+    align-items: center;
     padding-top: 5px;
 
     width: 700px;
     height: 75px;
 
-    top: 150px;
-    left: 200px;
+    top: 180px;
+    left: 280px;
 
     position: absolute;
 }
