@@ -60,7 +60,7 @@ h2, h3 {
 
 /*Header container*/
 .header {
-    height: 50px;
+    height: 80px;
     width: 100%;
     padding: 22px;
     position: relative;
@@ -70,26 +70,25 @@ h2, h3 {
     background-color: #fff8f0;
 }
 
-/*Title*/
-#title {
-    font-family: Josefin Sans, sans-serif;
-    font-size: 300%;
-    color: #402e32;
-    text-align: center;
-    position: relative;
+/*Logo*/
+#logo {
+    margin-left: 30px;
+
 }
 
 /*Nav-links*/
 .nav-links {
     font-family: Josefin Sans, sans-serif;
-    font-size: 120%;
-    color: #402e32;
+    font-size: 150%;
+    color: #c09336;
+    float: bottom;
 }
 
 .nav-links li {
     float: right;
     list-style-type: none;
     margin-right: 40px;
+    margin-top: 60px;
 }
 
 .nav-links li a {
@@ -253,7 +252,7 @@ footer>a {
 }
 
 .package-image {
-    padding: 15px;
+    padding: 20px;
 }
 
 table {
@@ -306,6 +305,7 @@ td {
     display: inline-block;
     margin: 25px;
     margin-left: 25px;
+    margin-bottom: 10px;
 }
 
 .button {
