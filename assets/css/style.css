@@ -172,9 +172,11 @@ h2, h3 {
 }
 
 /*About section*/
-.about-text {
+.about-background {
     background-color: #fff8f0;
     padding: 25px;
+    margin-top: 245px;
+
 }
 
 /*Location section*/
