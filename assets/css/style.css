@@ -110,6 +110,7 @@ h2, h3 {
     background-color: #fff8f0;
 }
 
+/*HOME PAGE*/
 /*Intro section*/
 .intro-text {
     background-color: #fff8f0;
@@ -176,7 +177,6 @@ h2, h3 {
     background-color: #fff8f0;
     padding: 25px;
     margin-top: 245px;
-
 }
 
 /*Location section*/
@@ -379,6 +379,14 @@ td {
 }
 
 .return {
+    color: #402e32;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 80%;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.return-top {
     color: #402e32;
     font-family: Source Sans Pro, sans-serif;
     font-size: 80%;
