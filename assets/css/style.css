@@ -176,6 +176,7 @@ h2, h3 {
     background-color: #fff8f0;
     padding: 25px;
     margin-top: -20px;
+    display: flex;
 }
 
 #location-text {
@@ -187,15 +188,13 @@ h2, h3 {
     text-align: center;
 }
 
+/*PACKAGES PAGE*/
 #package-heading {
     font-family: Josefin Sans, sans-serif;
     font-size: 200%;
     color: #402e32;
-
     margin-left: 0px;
 }
-
-/*PACKAGES PAGE*/
 .package-intro {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
