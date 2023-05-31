@@ -8,13 +8,14 @@
 
 body {
     height: 1200px;
+    width: 100%;
     background-color: #fff8f0;
 }
 
 /*Background image for page*/
 .main-image {
     width: 100%;
-    height: 400px;
+    height: 550px;
     background-image: url("../images/main-image.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -32,7 +33,7 @@ body {
     margin-right: 25px;
 }
 
-h2, h3 {
+h1, h2, h3 {
     font-family: Josefin Sans, sans-serif;
 }
 
@@ -84,6 +85,7 @@ h2, h3 {
     background-position: center top;
     background-size: cover;   
     background-color: #fff8f0;
+    width: 100%;
 }
 
 /*HOME PAGE*/
@@ -123,17 +125,16 @@ h2, h3 {
     justify-content: space-around;
     position: absolute;
     background: #fff8f0;
-    width: 85%;
+    width: 100%;
     padding: 25px;
-    padding-right: 173px;
     margin-left: 45px;
+    margin-right: 45px;
 }
 
 .package-links li {
     float: center;
     list-style-type: none;
     padding: 15px;
-
     display: inline-flex;
     margin-left: 80px;
 }
@@ -147,23 +148,19 @@ h2, h3 {
     border-bottom: 1px solid #402e32;
 }
 
-#seafaring-link-image {
-    margin-left: 40px;
-}
-
 #seafaring-link {
     border-radius: 50%;
-    border: 2px solid #402e32;
+    border: 4px solid #402e32;
 }
 
 #camp-link {
     border-radius: 50%;
-    border: 2px solid #402e32;
+    border: 4px solid #402e32;
 }
 
 #arts-crafts-link {
     border-radius: 50%;
-    border: 2px solid #402e32;
+    border: 4px solid #402e32;
 }
 
 /*About section*/
