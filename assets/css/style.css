@@ -117,21 +117,23 @@ h2, h3 {
     font-size: 100%;
     font-weight: bold;
     text-align: center;
-    display: inline-flex;
+    display: flex;
     align-content: center;
+    align-items: center;
+    justify-content: space-around;
     position: absolute;
     background: #fff8f0;
+    width: 85%;
     padding: 25px;
-    padding-right: 175px;
+    padding-right: 173px;
     margin-left: 45px;
 }
 
 .package-links li {
     float: center;
-    align-items: center;
     list-style-type: none;
     padding: 15px;
-    justify-content: space-around;
+
     display: inline-flex;
     margin-left: 80px;
 }
