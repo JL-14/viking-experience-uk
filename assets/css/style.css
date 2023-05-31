@@ -82,13 +82,11 @@ h2, h3 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover;
-    
+    background-size: cover;   
     background-color: #fff8f0;
 }
 
 /*HOME PAGE*/
-
 /*Cover text and Intro section*/
 #cover-text {
     background: rgba(192, 146, 54, 0.35);
@@ -189,53 +187,6 @@ h2, h3 {
     text-align: center;
 }
 
-/*Footer section*/
-footer {
-    background-color: #402e32;
-    font-family: Josefin Sans, sans-serif;
-    padding: 1em;
-    padding-top: 10px;
-    text-align: center;
-    display: flex;
-    width: 98%;
-    height: 25px;
-    justify-content: space-between;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-}
-
-footer>span {
-    color: #c09336;
-}
-
-footer>a {
-    color: #c09336;
-    text-decoration: none;
-    padding: 0 15px;
-    font-size: 1rem;
-}
-
-#socialmedia {
-    color: #c09336;
-}
-
-#socialmedia li {
-    color: #fff8f0;
-    font-size: 80%;
-    float: center;
-    list-style-type: none;
-    padding: 5px;
-    justify-content: space-around;
-    display: inline-flex;
-    margin-left: 5px;
-}
-
-#socialmedia li a {
-    text-decoration: none;
-    color: inherit;
-}
-
 #package-heading {
     font-family: Josefin Sans, sans-serif;
     font-size: 200%;
@@ -300,7 +251,6 @@ table {
     border-color: #c09336;
     border-width: 10px;
     display: inline-block;
-
 }
 
 td {
@@ -525,6 +475,60 @@ fieldset {
     background: rgba(255, 248, 240, 0.9);
     color: #402e32;
     box-shadow: 0 6px 20px #402e32;
+}
+/*FOOTER SECTION*/
+footer {
+    background-color: #402e32;
+    font-family: Josefin Sans, sans-serif;
+    padding: 1em;
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    width: 98%;
+    height: 25px;
+    justify-content: space-between;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+footer>span {
+    color: #c09336;
+}
+
+footer>a {
+    color: #c09336;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    border-bottom: 2px solid #c09336;
+}
+
+#socialmedia {
+    color: #c09336;
+}
+
+#socialmedia li {
+    color: #fff8f0;
+    font-size: 80%;
+    float: center;
+    list-style-type: none;
+    padding: 5px;
+    justify-content: space-around;
+    display: inline-flex;
+    margin-left: 5px;
+}
+
+#socialmedia li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#socialmedia li a:hover {
+    border-bottom: 2px solid #fff8f0;
 }
 
 /* Media queries*/
