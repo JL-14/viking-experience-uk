@@ -94,6 +94,11 @@ h1, h2, h3 {
 .intro-text {
     background-color: #fff8f0;
     padding: 25px;
+    margin-top: 450px;
+}
+
+.intro-text h1 {
+    font-size: 200%;
 }
 
 /*Package-links section*/
@@ -108,7 +113,7 @@ h1, h2, h3 {
     justify-content: space-around;
     position: absolute;
     background: #fff8f0;
-    width: 120%;
+    width: 90%;
     padding: 25px;
     margin-left: 45px;
     margin-right: 45px;
