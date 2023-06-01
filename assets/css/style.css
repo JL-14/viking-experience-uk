@@ -33,7 +33,7 @@ h1, h2, h3 {
 /*Header container*/
 .header {
     height: 80px;
-    width: 100%;
+    width: 98%;
     padding: 22px;
     position: relative;
     display: inline-flex;
@@ -188,6 +188,7 @@ h1, h2, h3 {
     padding: 20px;
     margin-left: 25px;
     margin-right: 25px;
+    margin-top: 450px;
     background-color: #fff8f0;
     }
 
@@ -322,13 +323,16 @@ td {
 }
 
 /*CONTACT PAGE*/
-.contact-intro {
+#contact-intro {
     font-family: Josefin Sans, sans-serif;
-    font-size: 120%;
+    font-size: 100%;
     font-weight: bolder;
     color: #402e32;
+    background-color: #fff8f0;
     padding: 10px;
     margin-left: 35px;
+    margin-right: 45px;
+    margin-top: 450px;
 }
 
 /*Form Section*/
@@ -468,6 +472,7 @@ footer {
     font-family: Josefin Sans, sans-serif;
     padding: 1em;
     padding-top: 10px;
+
     text-align: center;
     display: flex;
     width: 98%;
