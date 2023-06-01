@@ -348,7 +348,8 @@ td {
 /*Form Section*/
 #form-layout {
     display: flex;
-    float: center;
+    align-items: center;
+    position: relative;
 }
 /*Personal details section*/
 #personal-details {
@@ -360,7 +361,8 @@ td {
     color: #402e32;
     border: 2px solid #402e32;
     border-style: inset;
-    margin: 0 50px;
+    margin-left: 100px;
+    margin-right: 50px;
     padding: 15px;
 }
 
@@ -388,7 +390,7 @@ td {
     color: #402e32;
     border: 2px solid #402e32;
     border-style: inset;
-    margin: 0 50px;
+
     padding: 15px;
 }
 
@@ -402,11 +404,15 @@ td {
 
 /*Open query section*/
 #open-query-and-submit {
+    display: block;
     wrap: wrap;
+    position: absolute;
+    top: 325px;
 }
 
 #query-field {
-    width: 864px;
+    resize: none;
+    width: 860px;
     height: 100%px;
     background-color: #fff8f0;
     font-family: Source Sans Pro, sans-serif;
@@ -414,22 +420,21 @@ td {
     color: #402e32;
     border: 2px solid #402e32;
     border-style: inset;
-    margin: 0 50px;
+    margin-left: 50px;
     padding: 15px;
+
 }
 
 /*Submit section*/
 #form-submit {
-    width: 864px;
-    height: 100%;
+
     border: none;
-    margin-top: -10px;
+    margin-top: -30px;
     background-color: #fff8f0;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
-    border: 2px solid #402e32;
-    border-style: inset;
+    width: 1000px;
     margin: 0 50px;
     padding: 15px;
 }
@@ -459,6 +464,7 @@ td {
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
+    margin-top: 10px;
     margin-left: 50px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -467,7 +473,7 @@ td {
     border-radius: 7px;
     border: 2px solid #402e32;
     text-decoration: none;
-    display: inline-flex;
+    display: block;
     outline: 0;
     cursor: pointer;
     box-shadow: 0 4px 14px 0 #402e32;
