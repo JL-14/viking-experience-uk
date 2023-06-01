@@ -323,22 +323,22 @@ td {
 }
 
 /*CONTACT PAGE*/
+/*Page set-up*/
 #details-booking {
     height: 1200px;
     width: 95%;
-    display: flex;
     margin-top: 450px;
     margin-left: 30px;
     background-color: #fff8f0;
 }
 
+/*Intro section*/
 #contact-intro {
     font-family: Josefin Sans, sans-serif;
     font-size: 100%;
     font-weight: bolder;
     color: #402e32;
     background-color: #fff8f0;
-    display: flex;
     padding: 10px;
     margin-left: 35px;
     margin-right: 45px;
@@ -346,6 +346,10 @@ td {
 }
 
 /*Form Section*/
+#form-layout {
+    display: flex;
+    float: center;
+}
 /*Personal details section*/
 #personal-details {
     width: 400px;
@@ -374,7 +378,7 @@ td {
     padding: 5px;
 }
 
-/*Dates and date selection*/
+/*Dates and date selection section*/
 #booking {
     width: 400px;
     height: 275px;
@@ -397,6 +401,10 @@ td {
 }
 
 /*Open query section*/
+#open-query-and-submit {
+    wrap: wrap;
+}
+
 #query-field {
     width: 864px;
     height: 100%px;
@@ -441,10 +449,6 @@ td {
 
 #t-and-c {
     display: inline-block;
-}
-
-.contact-types {
-    padding-bottom: 10px;
 }
 
 .submit-button {
