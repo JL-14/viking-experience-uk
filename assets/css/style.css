@@ -323,12 +323,22 @@ td {
 }
 
 /*CONTACT PAGE*/
+#details-booking {
+    height: 1200px;
+    width: 95%;
+    display: flex;
+    margin-top: 450px;
+    margin-left: 30px;
+    background-color: #fff8f0;
+}
+
 #contact-intro {
     font-family: Josefin Sans, sans-serif;
     font-size: 100%;
     font-weight: bolder;
     color: #402e32;
     background-color: #fff8f0;
+    display: flex;
     padding: 10px;
     margin-left: 35px;
     margin-right: 45px;
@@ -336,12 +346,11 @@ td {
 }
 
 /*Form Section*/
-.contact {
-    width: 800px;
-    height: 80%;
-}
-
-fieldset {
+/*Personal details section*/
+#personal-details {
+    width: 400px;
+    height: 275px;
+    background-color: #fff8f0;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
@@ -351,35 +360,15 @@ fieldset {
     padding: 15px;
 }
 
-#details-booking {
-    height: 400px;
-    width: 100%;
-    display: inline-flex;
-    margin-left: 130px;
-}
-
-#query-submit {
-    height: 400px;
-    width: 864px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-left: 130px;
-}
-
-#personal-details {
-    width: 400px;
-    height: 275px;
-}
-
-.fixedwidth {
-    display: block;
+.fixedwidth-personal {
+    display: inline-block;
     width: 350px;
     float: center;
     padding: 5px;
 }
 
 .fixedwidth-dates {
-    display: block;
+    display: inline-block;
     width: 275px;
     float: center;
     padding: 5px;
@@ -389,7 +378,14 @@ fieldset {
 #booking {
     width: 400px;
     height: 275px;
-    margin-left: -20px;
+    background-color: #fff8f0;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: bold;
+    color: #402e32;
+    border: 2px solid #402e32;
+    border-style: inset;
+    margin: 0 50px;
+    padding: 15px;
 }
 
 #dates {
@@ -404,7 +400,14 @@ fieldset {
 #query-field {
     width: 864px;
     height: 100%px;
-    margin-top: -80px;
+    background-color: #fff8f0;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: bold;
+    color: #402e32;
+    border: 2px solid #402e32;
+    border-style: inset;
+    margin: 0 50px;
+    padding: 15px;
 }
 
 /*Submit section*/
@@ -413,6 +416,14 @@ fieldset {
     height: 100%;
     border: none;
     margin-top: -10px;
+    background-color: #fff8f0;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: bold;
+    color: #402e32;
+    border: 2px solid #402e32;
+    border-style: inset;
+    margin: 0 50px;
+    padding: 15px;
 }
 .checkboxes label {
     display: inline-block;
@@ -466,6 +477,7 @@ fieldset {
     color: #402e32;
     box-shadow: 0 6px 20px #402e32;
 }
+
 /*FOOTER SECTION*/
 footer {
     background-color: #402e32;
