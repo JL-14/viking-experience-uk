@@ -333,6 +333,24 @@ td {
     margin: auto;
 }
 
+.req {
+    color: red;
+}
+
+#name:invalid {
+    border: 1px solid red;
+}
+#name:valid {
+    border: 1px solid green;
+}
+
+#email:invalid {
+    border: 1px solid red;
+}
+#email:valid {
+    border: 1px solid green;
+}
+
 /*Intro section*/
 #contact-intro {
     font-family: Josefin Sans, sans-serif;
@@ -374,13 +392,6 @@ td {
     padding: 5px;
 }
 
-.fixedwidth-dates {
-    display: inline-block;
-    width: 275px;
-    float: center;
-    padding: 5px;
-}
-
 /* Remove number spinner */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -410,6 +421,13 @@ input[type=number] {
     font-family: Source Sans Pro, sans-serif;
     border: 1px solid #402e32;
     padding-left: 10px;
+}
+
+.fixedwidth-dates {
+    display: inline-block;
+    width: 275px;
+    float: center;
+    padding: 5px;
 }
 
 /*Open query section*/
@@ -447,7 +465,6 @@ textarea {
 
 /*Submit section*/
 #form-submit {
-
     border: none;
     background-color: #fff8f0;
     font-family: Source Sans Pro, sans-serif;
@@ -482,10 +499,7 @@ textarea {
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 10px 20px 20px 50px;
     height: 50px;
     line-height: 25px;
     border-radius: 7px;

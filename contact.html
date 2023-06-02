@@ -56,11 +56,11 @@
                         <fieldset id="personal-details">
                         <legend>Personal Details</legend>
                             <p>
-                                <label for="name" class="fixedwidth-personal">Name (required): </label>
+                                <label for="name" class="fixedwidth-personal">Name (required): <span class="req">*</label>
                                 <input type="text" name="name" class="fixedwidth-personal" id="name" placeholder="Your name" required>
                             </p>
                             <p>
-                                <label for="email" class="fixedwidth-personal">E-mail address (required): </label>
+                                <label for="email" class="fixedwidth-personal">E-mail address (required): <span class="req">*</span></label>
                                 <input type="email" name="email" class="fixedwidth-personal" id="email" placeholder="Your e-mail address" required>
                             </p>
                             <p>
@@ -138,10 +138,10 @@
                                 of our team to contact you regarding your query or booking. </strong></p>
 
                             <div class="text">
-                                What is the best method and time for us to contact you about your query or booking?
+                                What is the best method and time for us to contact you about your query or booking? (required) <span class="req">*</span>
                                 <br>
                                 <br>
-                                <input type="radio" name="query-call" id="email-contact" value="email-contact">
+                                <input type="radio" name="query-call" id="email-contact" value="email-contact" required>
                                     <label for="email-contact">By E-mail</label>
                                 <input type="radio" name="query-call" id="phone-morning" value="phone-morning">
                                     <label for="phone-morning">By Phone -Morning</label>
