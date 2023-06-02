@@ -381,6 +381,16 @@ td {
     padding: 5px;
 }
 
+/* Remove number spinner */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 /*Dates and date selection section*/
 #booking {
     width: 400px;
@@ -391,7 +401,6 @@ td {
     color: #402e32;
     border: 2px solid #D49444;
     border-style: inset;
-
     padding: 15px;
 }
 
