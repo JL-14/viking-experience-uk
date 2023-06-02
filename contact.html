@@ -18,10 +18,8 @@
         <!--Header section -Logo, title, links-->
         <header class="header">
             <div id="logo">
-                <nav>
-                    <a href="index.html"><img src="assets/images/vikingexperience-logo.png"
-                        alt="Viking ship logo, acts as home button" width="100%" height="100"></a>
-                </nav>
+                <a href="index.html"><img src="assets/images/vikingexperience-logo.png"
+                    alt="Viking ship logo, acts as home button" width="100%" height="100"></a>
             </div>
             
             <nav>
@@ -72,62 +70,60 @@
                     <br>
 
         <!--Booking section-->
-                    <div>
-                        <fieldset id="booking">
+                    <fieldset id="booking">
                         <legend>Booking</legend>
                             <p>Which Experience would you like to book?</p>
-                    <br>
+                        <br>
 
         <!--Checkbox buttons and dates-->
-                    <div>
-                        <label class="fixedwidth-dates"><input type="checkbox" name="seafaring-booking" value="1" aria-label="Click here to select the seafaring experience package.">
-                        Seafaring Experience</label>  
-                        <select id="dates" class="fixedwidth-dates">
-                            <option>Available Seafaring Dates</option>
-                            <option>Wed 7 June 2023</option>
-                            <option>Sun 11 June 2023</option>
-                            <option>Wed 5 July 2023</option>
-                            <option>Sun 9 July 2023</option>
-                            <option>Wed 9 Aug 2023</option>
-                            <option>Sun 13 Aug 2023</option>
-                        </select>
-                    </div>
+                        <div>
+                            <label class="fixedwidth-dates"><input type="checkbox" name="seafaring-booking" value="1" aria-label="Click here to select the seafaring experience package.">
+                            Seafaring Experience</label>  
+                            <select id="dates" class="fixedwidth-dates">
+                                <option>Available Seafaring Dates</option>
+                                <option>Wed 7 June 2023</option>
+                                <option>Sun 11 June 2023</option>
+                                <option>Wed 5 July 2023</option>
+                                <option>Sun 9 July 2023</option>
+                                <option>Wed 9 Aug 2023</option>
+                                <option>Sun 13 Aug 2023</option>
+                            </select>
+                        </div>
 
-                    <div>
-                        <label class="fixedwidth-dates"><input type="checkbox" name="camp-booking" value="2" aria-label="Click here to select the camp experience package.">
-                        Camp Experience</label>
-                        <select id="dates" class="fixedwidth-dates">
-                            <option>Available Camp Dates</option>
-                            <option>Sat 17-Sun 18 June 2023</option>
-                            <option>Wed 21-Thu 22 June 2023</option>
-                            <option>Sat 15-Sun 16 July 2023</option>
-                            <option>Wed 19-Thu 20 July 2023</option>
-                            <option>Sat 19-Sun 20 Aug 2023</option>
-                            <option>Wed 23-Thu 24 Aug 2023</option>
-                        </select>
-                    </div>
+                        <div>
+                            <label class="fixedwidth-dates"><input type="checkbox" name="camp-booking" value="2" aria-label="Click here to select the camp experience package.">
+                            Camp Experience</label>
+                            <select id="dates" class="fixedwidth-dates">
+                                <option>Available Camp Dates</option>
+                                <option>Sat 17-Sun 18 June 2023</option>
+                                <option>Wed 21-Thu 22 June 2023</option>
+                                <option>Sat 15-Sun 16 July 2023</option>
+                                <option>Wed 19-Thu 20 July 2023</option>
+                                <option>Sat 19-Sun 20 Aug 2023</option>
+                                <option>Wed 23-Thu 24 Aug 2023</option>
+                            </select>
+                        </div>
 
-                    <div>
-                    <label class="fixedwidth-dates"><input type="checkbox" name="arts-crafts-booking" value="3" aria-label="Click here to select the arts and crafts experience package.">
-                        Arts & Crafts Experience</label>
-                        <select id="dates" class="fixedwidth-dates">
-                            <option>Available Arts & Crafts Dates</option>
-                            <option>Tue 6 June 2023</option>
-                            <option>Sat 10 June 2023</option>
-                            <option>Tue 4 July 2023</option>
-                            <option>Sat 8 July 2023</option>
-                            <option>Tue 8 Aug 2023</option>
-                            <option>Sat 12 Aug 2023</option>
-                        </select>
-                    </div>
-                </fieldset>
-            </div>
-            <br>
+                        <div>
+                            <label class="fixedwidth-dates"><input type="checkbox" name="arts-crafts-booking" value="3" aria-label="Click here to select the arts and crafts experience package.">
+                            Arts & Crafts Experience</label>
+                            <select id="dates" class="fixedwidth-dates">
+                                <option>Available Arts & Crafts Dates</option>
+                                <option>Tue 6 June 2023</option>
+                                <option>Sat 10 June 2023</option>
+                                <option>Tue 4 July 2023</option>
+                                <option>Sat 8 July 2023</option>
+                                <option>Tue 8 Aug 2023</option>
+                                <option>Sat 12 Aug 2023</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <br>
 
-        <!--Query Open Text-->
+        <!--Query: Open Text-->
                     <div id="open-query-and-submit">
                         <fieldset id="query-field">
-                            <legend>Query or Comments</legend>     
+                        <legend>Query or Comments</legend>     
                             <p>
                             <textarea name="query" id="query" placeholder="Please enter your query here"></textarea>
                             </p>
@@ -138,10 +134,10 @@
                                 of our team to contact you regarding your query or booking. </strong></p>
 
                             <div class="text">
-                                What is the best method and time for us to contact you about your query or booking? (required) <span class="req">*</span>
+                                What is the best method and time for us to contact you about your query or booking? (required)<span class="req"> *</span>
                                 <br>
                                 <br>
-                                <input type="radio" name="query-call" id="email-contact" value="email-contact" required>
+                                <input type="radio" name="query-call" class="email-contact" value="email-contact" required>
                                     <label for="email-contact">By E-mail</label>
                                 <input type="radio" name="query-call" id="phone-morning" value="phone-morning">
                                     <label for="phone-morning">By Phone -Morning</label>

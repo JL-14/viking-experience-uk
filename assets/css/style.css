@@ -33,11 +33,11 @@ h1, h2, h3 {
 /*Header container*/
 .header {
     height: 80px;
-    width: 98%;
+    width: 100%;
     padding: 22px;
     position: relative;
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #fff8f0;
 }
@@ -94,7 +94,7 @@ h1, h2, h3 {
 .intro-text {
     background-color: #fff8f0;
     padding: 25px;
-    margin-top: 450px;
+    margin-top: 500px;
 }
 
 .intro-text h1 {
@@ -104,6 +104,7 @@ h1, h2, h3 {
 /*Package-links section*/
 .package-links {
     font-family: Source Sans Pro, sans-serif;
+    color: #402e32;
     font-size: 100%;
     font-weight: bold;
     text-align: center;
@@ -113,10 +114,9 @@ h1, h2, h3 {
     justify-content: space-around;
     position: absolute;
     background: #fff8f0;
-    width: 90%;
+    width: 92%;
     padding: 25px;
     margin-left: 45px;
-    margin-right: 45px;
 }
 
 .package-links li {
@@ -188,7 +188,7 @@ h1, h2, h3 {
     padding: 20px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 450px;
+    margin-top: 500px;
     background-color: #fff8f0;
     }
 
@@ -327,42 +327,20 @@ td {
 #details-booking {
     height: 1000px;
     width: 75%;
-    margin-top: 450px;
     margin-left: 30px;
     background-color: #fff8f0;
     margin: auto;
 }
 
-.req {
-    color: red;
-}
-
-#name:invalid {
-    border: 1px solid red;
-}
-#name:valid {
-    border: 1px solid green;
-}
-
-#email:invalid {
-    border: 1px solid red;
-}
-#email:valid {
-    border: 1px solid green;
-}
-
 /*Intro section*/
 #contact-intro {
-    font-family: Josefin Sans, sans-serif;
-    font-size: 100%;
-    font-weight: bolder;
     text-align: center;
     color: #402e32;
     background-color: #fff8f0;
     padding: 10px;
     margin-left: 35px;
     margin-right: 45px;
-    margin-top: 450px;
+    margin-top: 500px;
 }
 
 /*Form Section*/
@@ -390,6 +368,10 @@ td {
     width: 350px;
     float: center;
     padding: 5px;
+}
+
+#telephone {
+    border: 1px solid #402e32;
 }
 
 /* Remove number spinner */
@@ -437,7 +419,6 @@ input[type=number] {
     justify-content: center;
     position: absolute;
     top: 325px;
-
 }
 
 #query-field {
@@ -450,17 +431,38 @@ input[type=number] {
     color: #402e32;
     border: 2px solid #D49444;
     border-style: inset;
-
     padding: 15px;
 }
 
 #query {
     width: 100%;
     height: 200px;
+    border: 1px solid #402e32;
 }
 
 textarea {
     resize: none;
+}
+
+/*Validation of required entries*/
+.req {
+    color: red;
+}
+
+#name:invalid {
+    border: 1px solid red;
+}
+
+#name:valid {
+    border: 1px solid green;
+}
+
+#email:invalid {
+    border: 1px solid red;
+}
+
+#email:valid {
+    border: 1px solid green;
 }
 
 /*Submit section*/
@@ -526,12 +528,11 @@ footer {
     font-family: Josefin Sans, sans-serif;
     padding: 1em;
     padding-top: 10px;
-
     text-align: center;
     display: flex;
-    width: 98%;
+    width: 100%;
     height: 25px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     bottom: 0;
     right: 0;
     z-index: 3;
