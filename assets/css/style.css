@@ -326,10 +326,11 @@ td {
 /*Page set-up*/
 #details-booking {
     height: 1000px;
-    width: 95%;
+    width: 75%;
     margin-top: 450px;
     margin-left: 30px;
     background-color: #fff8f0;
+    margin: auto;
 }
 
 /*Intro section*/
@@ -356,11 +357,11 @@ td {
 #personal-details {
     width: 400px;
     height: 275px;
-    background-color: #fff8f0;
+    background-color: #EBAF57;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
-    border: 2px solid #402e32;
+    border: 2px solid #D49444;
     border-style: inset;
     margin-right: 50px;
     padding: 15px;
@@ -384,11 +385,11 @@ td {
 #booking {
     width: 400px;
     height: 275px;
-    background-color: #fff8f0;
+    background-color: #EBAF57;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
-    border: 2px solid #402e32;
+    border: 2px solid #D49444;
     border-style: inset;
 
     padding: 15px;
@@ -405,23 +406,30 @@ td {
 /*Open query section*/
 #open-query-and-submit {
     display: block;
-    wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
     position: absolute;
     top: 325px;
+
 }
 
 #query-field {
     resize: none;
-    width: 800px;
+    width: 883px;
     height: 100%px;
-    background-color: #fff8f0;
+    background-color: #EBAF57;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
-    border: 2px solid #402e32;
+    border: 2px solid #D49444;
     border-style: inset;
-    margin-left: 75px;
+
     padding: 15px;
+}
+
+#query {
+    width: 100%;
+    height: 200px;
 }
 
 textarea {
@@ -432,13 +440,11 @@ textarea {
 #form-submit {
 
     border: none;
-    margin-top: -30px;
     background-color: #fff8f0;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
-    width: 1000px;
-    margin: 0 50px;
+    width: 800px;
     padding: 15px;
 }
 .checkboxes label {
