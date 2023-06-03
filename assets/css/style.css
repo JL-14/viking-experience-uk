@@ -127,11 +127,10 @@ h1, h2, h3 {
     align-content: center;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
+    position: relative;
     background: #fff8f0;
     width: 95%;
     padding: 25px;
-    margin-left: 45px;
 }
 
 .package-links li {
@@ -139,7 +138,6 @@ h1, h2, h3 {
     list-style-type: none;
     padding: 15px;
     display: inline-flex;
-    margin-left: 60px;
 }
 
 .package-links li a {
@@ -170,7 +168,6 @@ h1, h2, h3 {
 .about-background {
     background-color: #fff8f0;
     padding: 25px;
-    margin-top: 245px;
 }
 
 /*Location section*/
@@ -340,7 +337,7 @@ td {
 /*CONTACT PAGE*/
 /*Page set-up*/
 #details-booking {
-    height: 150vh;
+    height: 210vh;
     width: 65%;
     margin-left: 30px;
     background-color: #fff8f0;
@@ -348,12 +345,15 @@ td {
 }
 
 /*Intro section*/
-#contact-intro {
+.contact-intro {
     text-align: center;
     color: #402e32;
     background-color: #fff8f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
     padding: 10px;
-    margin-left: 35px;
     margin-right: 45px;
     margin-top: -900px;
 }
@@ -363,6 +363,7 @@ td {
     display: flex;
     justify-content: center;
     position: relative;
+    background-color: #fff8f0;
 }
 /*Personal details section*/
 #personal-details {
@@ -374,7 +375,7 @@ td {
     color: #402e32;
     border: 2px solid #D49444;
     border-style: inset;
-    margin-right: 50px;
+    margin-right: 60px;
     padding: 15px;
 }
 
@@ -429,17 +430,15 @@ input[type=number] {
 
 /*Open query section*/
 #open-query-and-submit {
-    display: block;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     position: absolute;
-    top: 325px;
+    top: 275px;
+    padding: 25px;
 }
 
 #query-field {
-    resize: none;
-    width: 883px;
-    height: 100%px;
     background-color: #EBAF57;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
@@ -624,6 +623,9 @@ footer a:hover {
 #t-and-c-content ol li {
     padding: 10px;
 }
+
+/*Thank you page*/
+
 
 /* Media queries*/
 
