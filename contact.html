@@ -18,8 +18,8 @@
         <!--Header section -Logo, title, links-->
         <header class="header">
             <div id="logo">
-                <a href="index.html"><img src="assets/images/vikingexperience-logo.png"
-                    alt="Viking ship logo, acts as home button" width="100%" height="100"></a>
+                <a href="index.html" aria-label="Viking ship logo, acts as home button"><img src="assets/images/vikingexperience-logo.png"
+                    width="100%" height="100"></a>
             </div>
             
             <nav>
@@ -49,7 +49,7 @@
 
         <!--Form section-->
             <section>           
-                <form id="form-layout" method="post" action="#">
+                <form id="form-layout" method="GET" action="thank-you.html">
                     <div>
                         <fieldset id="personal-details">
                         <legend>Personal Details</legend>
@@ -150,8 +150,7 @@
                                     <label for="anytime">I don't mind how you contact me!</label>
                             </div>
 
-                            <button class="submit-button" type="submit" name="submit" onclick="return confirm(
-                                'Thank you for your query, a member of the team will be in touch shortly! ***PLEASE NOTE THAT THIS IS A TEST WEBSITE, SO THE FORM WILL NOT BE SENT***')">Send Message!
+                            <button class="submit-button" type="submit" name="submit">Send Message!
                             </button>
                         </fieldset>
                     </div>

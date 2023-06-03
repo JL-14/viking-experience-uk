@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
-    height: 1200px;
+    min-height: 100vh;
     width: 100%;
     background-color: #fff8f0;
     background-image: url("../images/main-image.jpg");
@@ -15,6 +16,18 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Text styling*/
@@ -32,9 +45,10 @@ h1, h2, h3 {
 
 /*Header container*/
 .header {
-    height: 80px;
+    height: 120px;
     width: 100%;
-    padding: 22px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     position: relative;
     display: inline-flex;
     justify-content: space-around;
@@ -95,7 +109,7 @@ h1, h2, h3 {
 .intro-text {
     background-color: #fff8f0;
     padding: 25px;
-    margin-top: 500px;
+    margin-top: 550px;
 }
 
 .intro-text h1 {
@@ -115,7 +129,7 @@ h1, h2, h3 {
     justify-content: space-around;
     position: absolute;
     background: #fff8f0;
-    width: 92%;
+    width: 95%;
     padding: 25px;
     margin-left: 45px;
 }
@@ -125,7 +139,7 @@ h1, h2, h3 {
     list-style-type: none;
     padding: 15px;
     display: inline-flex;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .package-links li a {
@@ -189,7 +203,7 @@ h1, h2, h3 {
     padding: 20px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 500px;
+    margin-top: 550px;
     background-color: #fff8f0;
     }
 
@@ -326,11 +340,11 @@ td {
 /*CONTACT PAGE*/
 /*Page set-up*/
 #details-booking {
-    height: 1000px;
-    width: 75%;
+    height: 150vh;
+    width: 65%;
     margin-left: 30px;
     background-color: #fff8f0;
-    margin: auto;
+    margin-top: 550px;
 }
 
 /*Intro section*/
@@ -341,7 +355,7 @@ td {
     padding: 10px;
     margin-left: 35px;
     margin-right: 45px;
-    margin-top: 500px;
+    margin-top: -900px;
 }
 
 /*Form Section*/
@@ -473,7 +487,7 @@ textarea {
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
-    width: 800px;
+    width: 100%;
     padding: 15px;
 }
 .checkboxes label {
@@ -529,9 +543,10 @@ footer {
     font-family: Josefin Sans, sans-serif;
     padding: 1em;
     padding-top: 10px;
+    margin-top: 20px;
     text-align: center;
     display: flex;
-    height: 25px;
+    height: 45px;
     width: 100%;
     justify-content: space-evenly;
     bottom: 0;
@@ -561,9 +576,7 @@ footer a:hover {
 #socialmedia li {
     color: #fff8f0;
     font-size: 80%;
-    float: center;
     list-style-type: none;
-    padding: 5px;
     justify-content: space-around;
     display: inline-flex;
     margin-left: 5px;
