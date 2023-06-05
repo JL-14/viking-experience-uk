@@ -27,7 +27,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
 }
 
 /*Text styling*/
@@ -98,7 +98,7 @@ h1, h2, h3 {
     align-items: center;
     padding-top: 5px;
     width: 50%;
-    height: 75px;
+    height: 10vh;
     top: 180px;
     left:25%;
     display: flex;
@@ -236,6 +236,8 @@ h1, h2, h3 {
 .package-image {
     padding: 20px;
     float: right;
+    width: 33.33%;
+    height: auto;
 }
 
 table {
@@ -262,6 +264,8 @@ td {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+        width: 100%;
+            height: auto;
 }
 
 #shipbuilding-image {
@@ -272,12 +276,16 @@ td {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+        width: 100%;
+            height: auto;
 }
 
 .arts-crafts-images {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+        width: 100%;
+            height: auto;
 }
 
 #craftsman-image {
