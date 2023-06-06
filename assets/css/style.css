@@ -672,4 +672,19 @@ footer a:hover {
     margin-bottom: 50px;
 }
 
+#location-background {
+    background-color: #fff8f0;
+    padding: 25px;
+    margin-top: -20px;
+    display: flex;
+    flex-flow: column-wrap;
+    width: 100%;
+}
 
+#map {
+    float: bottom;
+}
+
+#location-text {
+    width: 100%;
+}
