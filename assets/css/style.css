@@ -202,9 +202,7 @@ h1, h2, h3 {
     color: #402e32;
     padding: 20px;
     padding-right: 33.33%;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 550px;
+    margin: 550px 25px 25px 25px;
     background-color: #fff8f0;
     }
 
