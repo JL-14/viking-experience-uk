@@ -20,8 +20,14 @@
     <!--Header section -Logo, title, links-->
     <header class="header">
         <div id="logo">
-            <a href="index.html"><img src="assets/images/vikingexperience-logo.png"
-                    alt="Viking ship logo, acts as home button" width="100%" height="100"></a>
+            <a href="index.html">
+                <picture>
+                    <source srcset="assets/images/logo-png.png" media="(max-width: 800px)">
+                    <source srcset="assets/images/vikingexperience-logo.png">
+                    <img src="assets/images/vikingexperience-logo.png"
+                alt="Viking ship logo, acts as home button" width="100%" height="100px">
+                </picture>
+            </a>
         </div>
 
         <nav>
