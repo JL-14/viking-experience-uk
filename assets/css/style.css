@@ -131,6 +131,7 @@ h1, h2, h3 {
     background: #fff8f0;
     width: 95%;
     padding: 25px;
+    margin-left: 45px;
 }
 
 .package-links li {
@@ -557,7 +558,7 @@ footer {
     margin-top: 20px;
     text-align: center;
     display: flex;
-    height: 45px;
+    height: 100%;
     width: 100%;
     justify-content: space-evenly;
     bottom: 0;
