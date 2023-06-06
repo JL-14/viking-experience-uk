@@ -131,7 +131,7 @@ h1, h2, h3 {
     justify-content: space-around;
     position: relative;
     background: #fff8f0;
-    width: 95%;
+    margin-right: 45px;
     padding: 25px;
     margin-left: 45px;
 }
@@ -372,7 +372,7 @@ td {
     padding: 10px;
     padding-top: 15px;
     margin-right: 45px;
-    margin-top: -900px;
+    margin-top: -950px;
 }
 
 /*Form Section*/
@@ -381,11 +381,12 @@ td {
     justify-content: center;
     position: relative;
     background-color: #fff8f0;
+    padding: 0 15px;
 }
 /*Personal details section*/
 #personal-details {
-    width: 400px;
-    height: 275px;
+    width: auto;
+    height: 100%;
     background-color: #EBAF57;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
@@ -398,7 +399,7 @@ td {
 
 .fixedwidth-personal {
     display: inline-block;
-    width: 350px;
+    width: 275px;
     float: center;
     padding: 5px;
 }
@@ -419,8 +420,8 @@ input[type=number] {
 
 /*Dates and date selection section*/
 #booking {
-    width: 400px;
-    height: 275px;
+    width: auto;
+    height: 100%;
     background-color: #EBAF57;
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
