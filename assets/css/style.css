@@ -100,7 +100,7 @@ h1, h2, h3 {
     align-items: center;
     padding-top: 5px;
     width: 50%;
-    height: 10vh;
+    height: auto;
     top: 180px;
     left:25%;
     display: flex;
@@ -201,6 +201,7 @@ h1, h2, h3 {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
     padding: 20px;
+    padding-right: 33.33%;
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 550px;
@@ -266,9 +267,10 @@ td {
 .seafaring-images {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     padding: 10px;
-        width: 100%;
-            height: auto;
+    width: 100%;
+    height: auto;
 }
 
 #shipbuilding-image {
@@ -279,16 +281,16 @@ td {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-        width: 100%;
-            height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .arts-crafts-images {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-        width: 100%;
-            height: auto;
+    width: 100%;
+    height: auto;
 }
 
 #craftsman-image {
