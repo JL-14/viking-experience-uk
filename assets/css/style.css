@@ -68,6 +68,8 @@ h1, h2, h3 {
     font-size: 150%;
     color: #c09336;
     float: bottom;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-links li {
