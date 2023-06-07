@@ -348,11 +348,11 @@ td {
 /*CONTACT PAGE*/
 /*Page set-up*/
 #contact-form-structure {
-    height: 110vh;
+    height: 160vh;
     width: 80%;
     margin-left: 10%;
     background-color: #fff8f0;
-    margin-top:550px;
+    margin-top:400px;
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -500,11 +500,12 @@ textarea {
 /*Submit section*/
 #form-submit {
     border: none;
-    background-color: #fff8f0;
+    /* background-color: #fff8f0; */
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
-    width: 100%;
+    /* width: auto;
+    height: 100%; */
     padding: 15px;
 }
 .checkboxes label {
@@ -666,6 +667,10 @@ footer a:hover {
     margin: 0px;
 }
 
+#contact-form-structure {
+    height: 200vh;
+}
+
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
 #logo {
@@ -699,6 +704,6 @@ footer a:hover {
 flex-direction: column;
 }
 
-.contact-intro {
-
+#contact-form-structure {
+    height: 350vh;
 }
