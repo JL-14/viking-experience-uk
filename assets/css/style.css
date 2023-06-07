@@ -111,7 +111,7 @@ h1, h2, h3 {
 .intro-text {
     background-color: #fff8f0;
     padding: 25px;
-    margin-top: 550px;
+    margin-top: 400px;
 }
 
 .intro-text h1 {
@@ -182,12 +182,16 @@ h1, h2, h3 {
 }
 
 #location-text {
-    padding-right: 425px;
+    padding-right: 10%;
 }
 
 #reception {
     font-size: 80%;
     text-align: center;
+}
+
+#map {
+    padding-left: 10px;
 }
 
 /*PACKAGES PAGE*/
@@ -202,7 +206,7 @@ h1, h2, h3 {
     color: #402e32;
     padding: 20px;
     padding-right: 33.33%;
-    margin: 550px 25px 25px 25px;
+    margin: 400px 25px 25px 25px;
     background-color: #fff8f0;
     }
 
@@ -474,7 +478,6 @@ input[type=number] {
     justify-content: center;
     position: absolute;
     top: 100%;
-    padding: 25px;
 }
 
 #query-field {
@@ -500,13 +503,9 @@ textarea {
 /*Submit section*/
 #form-submit {
     border: none;
-    /* background-color: #fff8f0; */
     font-family: Source Sans Pro, sans-serif;
     font-weight: bold;
     color: #402e32;
-    /* width: auto;
-    height: 100%; */
-    padding: 15px;
 }
 .checkboxes label {
     display: inline-block;
@@ -623,7 +622,7 @@ footer a:hover {
     color: #402e32;
     background-color: #fff8f0;
     background-size: 100%;
-    height: 140vh;
+    height: 250vh;
     width: 70%;
     display: block;
     padding-left: 15%;
@@ -656,7 +655,6 @@ footer a:hover {
 }
 
 /* Media queries*/
-
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 .nav-links {
@@ -669,6 +667,11 @@ footer a:hover {
 
 #contact-form-structure {
     height: 200vh;
+}
+
+#t-and-c-content {
+    height: 400vh;
+}
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -695,7 +698,10 @@ footer a:hover {
     width: 100%;
 }
 
-    /*Responsive design for contact page*/
+#title-responsive {
+    display: block;
+}
+
 #form-layout {
     flex-direction: column;
 }
@@ -706,4 +712,8 @@ flex-direction: column;
 
 #contact-form-structure {
     height: 350vh;
+}
+
+.submit-button {
+    font-size: 60%;
 }
