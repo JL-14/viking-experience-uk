@@ -1,39 +1,62 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![The Viking Experience UK](assets/images/vikingexperience-logo.png)
+---
+# *The Viking Experience UK*
 
-Welcome,
+The Viking Experience UK website promotes experience packages in Winton-on-Sea, Norfolk, UK, whereby visitors can live like a Viking arriving in the UK in the 8th and 9th centuries. There are currently three packages available. Users can read about the experiences, see available dates, and send a query or a booking request.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website can be accessed [here](https://github.com/JL-14/viking-experience-uk/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Responsive Mockup](PLACE URL HERE)
 
 ---
+## User Stories
 
-Happy coding!
+### First Time Visitor Goals:
+
+*On my first visit, I want to easily find out what The Viking Experience UK is, and what is on offer.
+*On my first visit, I want to be able to easily navigate through the site, and find information about the experiences I am interested in.
+*On my first visit, I want to easily see where The Viking Experience UK is located.
+
+### Returning Visitor Goals:
+
+*On my return visit, I want to be able to check the dates of the experiences and find information that would enable me to decide which package to book.
+*On my return visit, I want to be able to make a booking or send a query to the company, or contact details to enable me to get in touch with them directly.
+*On my return visit, I want to be able to find links for more information about the aspects of Viking life in the UK I am interested in.
+
+### Frequent Visitor Goals:
+
+*As a frequent visitor to the site, I want to see whether there are new dates for the experiences, and what the availability is.
+*As a frequent visitor, I want to see whether there are new experiences available.
+
+## Features
+
++ ### Navbar
+
++ ### Home Page
+
++ ### Packages Page
+
++ ### Contact/Booking Page
+
++ ### Terms and Conditions Page
+
++ ### Thank You Page
+
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used for the formatting and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items and ensure responsive design.
+- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
+- [Codeanywhere](https://app.codeanywhere.com/) was used as the main Independent Developer Environment (IDE) tool to write and edit code.
+- [Gitpod](https://gitpod.io/) was used as a backup IDE tool for writing code and editing.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [iStock](https://www.istockphoto.com/) was used to source the images on the website.
+- [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) was used to edit and size images on the website.
+
+## Design
+
+### Colour Scheme
+
+
