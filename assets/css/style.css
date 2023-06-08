@@ -199,7 +199,7 @@ h1, h2, h3 {
     font-family: Josefin Sans, sans-serif;
     font-size: 200%;
     color: #402e32;
-    margin-left: 0px;
+    margin-left: 25px;
 }
 .package-intro {
     font-family: Source Sans Pro, sans-serif;
@@ -365,6 +365,22 @@ td {
 /*Intro section*/
 .contact-intro {
     font-family: Josefin Sans, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    color: #402e32;
+    background-color: #fff8f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    padding-top: 15px;
+    margin-right: 45px;
+}
+
+.contact-intro-lower {
+    font-family: Josefin Sans, sans-serif;
     font-size: large;
     text-align: center;
     color: #402e32;
@@ -377,6 +393,7 @@ td {
     padding: 10px;
     padding-top: 15px;
     margin-right: 45px;
+    margin-bottom: 20px;
 }
 
 /*Form Section*/
@@ -404,7 +421,6 @@ td {
 .fixedwidth-personal {
     display: inline-block;
     width: 100%;
-    float: center;
     padding: 5px;
 }
 
@@ -420,6 +436,7 @@ input::-webkit-inner-spin-button {
 }
 input[type=number] {
     -moz-appearance: textfield;
+    appearance: textfield;
 }
 
 /*Dates and date selection section*/
@@ -446,7 +463,6 @@ input[type=number] {
 .fixedwidth-dates {
     display: inline-block;
     width: 100%;
-    float: center;
     padding: 5px;
 }
 
@@ -645,6 +661,7 @@ footer a:hover {
 #main-thank-you {
     font-family: Josefin Sans, sans-serif;
     color: #402e32;
+    text-align: center;
     background-color: #fff8f0;
     height: 50vh;
     width: 100%;
@@ -688,6 +705,7 @@ footer a:hover {
     display: flex;
     flex-flow: column-wrap;
     width: 100%;
+    height: 85vh;
 }
 
 #map {
@@ -716,4 +734,5 @@ flex-direction: column;
 
 .submit-button {
     font-size: 60%;
+}
 }

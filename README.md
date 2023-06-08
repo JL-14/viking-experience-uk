@@ -77,7 +77,7 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 ![Title font](ADD)
 
-- Josefin Sans was used for titles and headers as it has a slightly Nordic appearance (with sharper edges than the main font) and is legible and goes well with the theme of the website.
+- Josefin Sans was used for titles and headers as it has a Nordic appearance (with sharper edges than the main font) and is legible and goes well with the theme of the website.
 
 ### Wireframe
 
