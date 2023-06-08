@@ -59,4 +59,35 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 ### Colour Scheme
 
+![Color Palette](/assets/images/color-palette.png)
+
+- A soft light brown colour was chosen as the main background colour, as psychologically it is associated with warmth, nature, earthiness, reliability, and support. These properties match the theme of the website, which provides outdoor experiences and work with natural materials.
+
+-A warm medium brown colour was used for the title and logo, for the same reasons as the main background colour, providing a middle contrast between the background and font colours.
+
+-A darker brown colour was used for fonts, headings and borders, chosen as it matches and provides good contrast against the background colour.
+
+-A slightly brighter light brown colour was chosen for the contact form boxes, to make the boxes stand out clearly against the background colour, and encourage action for these sections.
+
+### Typography
+
+![Main Font](ADD)
+
+- Source Sans 3 was used as the main font for the website as it provides good readability and works well with the header font.
+
+![Title font](ADD)
+
+- Josefin Sans was used for titles and headers as it has a slightly Nordic appearance (with sharper edges than the main font) and is legible and goes well with the theme of the website.
+
+### Wireframe
+
+![Wireframe for website](ADD)
+
+- The wireframe for the website was greated using the Balsamiq wireframe tool, creating an initial outline of the website. The initial design was further developed as the website was realised, but the core concept and design remains consistent.
+
+---
+
+## Testing
+
+In order to confirm the functionality, responsiveness and presentation of the website, it was tested on a range of screen types and screen sizes:
 
