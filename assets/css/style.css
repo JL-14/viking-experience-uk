@@ -38,7 +38,9 @@ main {
     margin-right: 25px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Josefin Sans, sans-serif;
 }
 
@@ -100,12 +102,13 @@ h1, h2, h3 {
     width: 50%;
     height: auto;
     top: 180px;
-    left:25%;
+    left: 25%;
     display: flex;
     justify-content: center;
     flex-flow: wrap;
     position: absolute;
 }
+
 .intro-text {
     background-color: #fff8f0;
     padding: 25px;
@@ -213,6 +216,7 @@ h1, h2, h3 {
     color: #402e32;
     margin-left: 25px;
 }
+
 .package-intro {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
@@ -220,7 +224,7 @@ h1, h2, h3 {
     padding-right: 33.33%;
     margin: 400px 25px 25px 25px;
     background-color: #fff8f0;
-    }
+}
 
 .seafaring-package {
     font-family: Source Sans Pro, sans-serif;
@@ -261,7 +265,7 @@ h1, h2, h3 {
 table {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
-    background: #fff;    
+    background: #fff;
     padding: 20px;
     margin: 20px 40px;
     border-collapse: collapse;
@@ -329,8 +333,8 @@ td {
     cursor: pointer;
     box-shadow: 0 4px 14px 0 #402e32;
     transition: background 0.2s ease,
-    color 0.2s ease,
-    box-shadow 0.2s ease;
+        color 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
 .button:hover {
@@ -368,7 +372,7 @@ td {
     width: 80%;
     margin-left: 10%;
     background-color: #fff8f0;
-    margin-top:400px;
+    margin-top: 400px;
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -416,6 +420,7 @@ td {
     background-color: #fff8f0;
     padding: 0 15px;
 }
+
 /*Personal details section*/
 #personal-details {
     width: auto;
@@ -446,6 +451,7 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 input[type=number] {
     -moz-appearance: textfield;
     appearance: textfield;
@@ -536,6 +542,7 @@ textarea {
     font-weight: bold;
     color: #402e32;
 }
+
 .checkboxes label {
     display: inline-block;
     padding-right: 10px;
@@ -627,7 +634,7 @@ textarea {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
 }
 
 /*FOOTER SECTION*/
@@ -687,81 +694,81 @@ footer a:hover {
 /* MEDIA QUERIES*/
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-.nav-links {
-    flex-direction: column;
-}
+    .nav-links {
+        flex-direction: column;
+    }
 
-.nav-links li {
-    margin: 0px;
-}
+    .nav-links li {
+        margin: 0px;
+    }
 
-#contact-form-structure {
-    height: 200vh;
-}
+    #contact-form-structure {
+        height: 200vh;
+    }
 
-#t-and-c-content {
-    height: 400vh;
-}
+    #t-and-c-content {
+        height: 400vh;
+    }
 
-#location {
-    flex-direction: column;
-}
+    #location {
+        flex-direction: column;
+    }
 
-#location-images {
-    flex-direction: column;
-}
+    #location-images {
+        flex-direction: column;
+    }
 
-#location-text {
-    width: 100%;
-}
+    #location-text {
+        width: 100%;
+    }
 
-#location-background {
-    background-color: #fff8f0;
-    padding: 25px;
-    margin-top: -20px;
-    display: flex;
-    width: 100%;
-    height: 125vh;
-}
+    #location-background {
+        background-color: #fff8f0;
+        padding: 25px;
+        margin-top: -20px;
+        display: flex;
+        width: 100%;
+        height: 125vh;
+    }
 }
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
-#logo {
-    height: 40px;
-    margin-bottom: 50px;
-}
+    #logo {
+        height: 40px;
+        margin-bottom: 50px;
+    }
 
-#location-background {
-    background-color: #fff8f0;
-    padding: 25px;
-    margin-top: -20px;
-    display: flex;
-    width: 100%;
-    height: 125vh;
-}
+    #location-background {
+        background-color: #fff8f0;
+        padding: 25px;
+        margin-top: -20px;
+        display: flex;
+        width: 100%;
+        height: 125vh;
+    }
 
-#location-text {
-    width: 100%;
-}
+    #location-text {
+        width: 100%;
+    }
 
-#title-responsive {
-    display: block;
-}
+    #title-responsive {
+        display: block;
+    }
 
-#form-layout {
-    flex-direction: column;
-}
+    #form-layout {
+        flex-direction: column;
+    }
 
-#details-booking {
-flex-direction: column;
-}
+    #details-booking {
+        flex-direction: column;
+    }
 
-#contact-form-structure {
-    height: 350vh;
-}
+    #contact-form-structure {
+        height: 350vh;
+    }
 
-.submit-button {
-    font-size: 60%;
-}
+    .submit-button {
+        font-size: 60%;
+    }
 }
