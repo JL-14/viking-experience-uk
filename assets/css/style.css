@@ -237,7 +237,6 @@ h3 {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
     padding: 20px;
-    padding-right: 33.33%;
     margin: 400px 25px 25px 25px;
     background-color: #fff8f0;
 }
@@ -304,31 +303,46 @@ td {
     flex-direction: row;
     padding: 10px;
     width: 100%;
-    height: auto;
 }
 
 #shipbuilding-image {
-    padding-left: 60px;
+    width: 100%;
+}
+
+#rowing-image {
+    width: 100%;
 }
 
 .camp-images {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     padding: 10px;
     width: 100%;
-    height: auto;
+}
+
+#walking-image {
+    width: 100%;
+}
+
+#cooks-image {
+    width: 100%;
 }
 
 .arts-crafts-images {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     padding: 10px;
     width: 100%;
-    height: auto;
 }
 
 #craftsman-image {
-    padding-left: 130px;
+    width: 100%;
+}
+
+#jewellery-image {
+    width: 100%;
 }
 
 .button {
@@ -750,7 +764,33 @@ footer a:hover {
         flex-direction: column;
         width: 100%;
     }
-}
+
+    .seafaring-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .camp-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arts-crafts-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .package-image {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .package-dates-table {
+        align-items: center;
+        margin: 0;
+        margin-top: 15px;
+    }
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
@@ -802,4 +842,4 @@ footer a:hover {
     .submit-button {
         font-size: 60%;
     }
-}
+}}
