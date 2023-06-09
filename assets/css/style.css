@@ -466,10 +466,11 @@ input[type=number] {
     padding: 15px;
 }
 
-#dates {
+.dates {
     color: #402e32;
     background-color: #fff;
     font-family: Source Sans Pro, sans-serif;
+    font-size: 100%;
     border: 1px solid #402e32;
     padding-left: 10px;
 }
