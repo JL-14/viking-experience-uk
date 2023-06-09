@@ -130,4 +130,62 @@ In order to confirm the functionality, responsiveness and presentation of the we
 ![CSS Page HTML Validator](ADD)
 
 + ### Accessibility and Performance
+-Using Lighthouse in DevTools on the Chrome browser I confirmed that the performance and accessibility aspects of the site were good.
 
+#### Home Page
+
+![Home Page Lighthouse](ADD)
+
+#### Packages Page
+
+![Packages Page Lighthouse](ADD)
+
+#### Contact Page
+
+![Contact Page Lighthouse](ADD)
+
+#### Terms and Conditions Page
+
+![Terms and Conditions Page Lighthouse](ADD)
+
+#### Thank You Page
+
+![Thank You Page Lighthouse](ADD)
+
+---
+
+## Deployment
+
+-The website was deployed to GitHub Pages.
+
+-In order to deploy, the following process was followed:
+    1. Select the [GitHub repository](ADD) and go to Settings.
+    2. Select the **Main Branch** from the Source Dropdown menu, and click Save.
+    3. The page will be refreshed automatically with a detailed report showing successful deployment.
+
+-The live link can be found [here](ADD)
+
+---
+
+## Future Improvements
+-further refine responsive design elements to improve appearance on the smallest screens (especially small mobiles)
+-add an up-to-date availability checker and the ability to book and pay online on the website
+-add a custom 404 Error page
+-add a gallery page
+-add feedback functionality
+
+---
+
+## Credits
+
++ #### Contents
+
++ #### Media
+
++ #### Tools
+
+---
+
+## Acknowledgements
+
+-
