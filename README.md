@@ -91,3 +91,43 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 In order to confirm the functionality, responsiveness and presentation of the website, it was tested on a range of screen types and screen sizes:
 
+### Validator Testing
+
+---
++ ### HTML
+#### Home Page
+-No errors or warnings were found when W3C Validator was employed.
+
+![Home Page HTML Validator](ADD)
+
+#### Packages Page
+-No errors or warnings were found when W3C Validator was employed.
+
+![Packages Page HTML Validator](ADD)
+
+#### Contact Page
+
+-No errors or warnings were found when W3C Validator was employed.
+
+![Contact Page HTML Validator](ADD)
+
+#### Terms and Conditions Page
+
+-No errors or warnings were found when W3C Validator was employed.
+
+![Terms and Conditions Page HTML Validator](ADD)
+
+#### Thank You Page
+
+-No errors or warnings were found when W3C Validator was employed.
+
+![Thank You Page HTML Validator](ADD)
+
++ ### CSS
+
+-No errors or warnings were found when W3C Validator was employed.
+
+![CSS Page HTML Validator](ADD)
+
++ ### Accessibility and Performance
+
