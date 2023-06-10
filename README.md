@@ -98,36 +98,42 @@ In order to confirm the functionality, responsiveness and presentation of the we
 #### Home Page
 -No errors or warnings were found when W3C Validator was employed.
 
-![Home Page HTML Validator](ADD)
+![Home Page HTML Validator](/documentation/images/w3c-validator-home-100623.png)
 
 #### Packages Page
 -No errors or warnings were found when W3C Validator was employed.
 
-![Packages Page HTML Validator](ADD)
+![Packages Page HTML Validator](/documentation/images/w3c-validator-packages-100623.png)
 
 #### Contact Page
 
 -No errors or warnings were found when W3C Validator was employed.
 
-![Contact Page HTML Validator](ADD)
+![Contact Page HTML Validator](/documentation/images/w3c-validator-contact-100623.png)
 
 #### Terms and Conditions Page
 
 -No errors or warnings were found when W3C Validator was employed.
 
-![Terms and Conditions Page HTML Validator](ADD)
+![Terms and Conditions Page HTML Validator](/documentation/images/w3c-validator-t-and-c-100623.png)
 
 #### Thank You Page
 
 -No errors or warnings were found when W3C Validator was employed.
 
-![Thank You Page HTML Validator](ADD)
+![Thank You Page HTML Validator](/documentation/images/w3c-validator-thankyou-100623.png)
 
 + ### CSS
 
--No errors or warnings were found when W3C Validator was employed.
+-No errors were found when W3C CSS Validator was employed.
 
-![CSS Page HTML Validator](ADD)
+![CSS Page Validator](/documentation/images/w3c-css-validator-100623.png)
+
+-There were 5 warnings in the W3C CSS Validator was run.
+
+![CSS Page Validator Warnings](/documentation/images/w3c-css-validator-warnings-100623.png)
+
+-The warnings all relate to embedded content on the website, and on testing with Firefox and Chrome browsers were not found to affect performance.
 
 + ### Accessibility and Performance
 -Using Lighthouse in DevTools on the Chrome browser I confirmed that the performance and accessibility aspects of the site were good.
