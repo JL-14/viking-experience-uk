@@ -42,7 +42,7 @@ main {
 h1,
 h2,
 h3 {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 img {
@@ -72,7 +72,7 @@ img {
 
 /*Nav-links*/
 .nav-links {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 150%;
     color: #c09336;
     display: flex;
@@ -100,7 +100,7 @@ img {
 #cover-text {
     background: rgba(192, 146, 54, 0.35);
     font-size: 130%;
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #402e32;
     letter-spacing: 4px;
     text-align: center;
@@ -230,7 +230,7 @@ img {
 
 /*PACKAGES PAGE*/
 #package-heading {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 200%;
     color: #402e32;
     margin-left: 25px;
@@ -427,7 +427,7 @@ td {
 
 /*Intro section*/
 .contact-intro {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 150%;
     text-align: center;
     color: #402e32;
@@ -443,7 +443,7 @@ td {
 }
 
 .contact-intro-lower {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: large;
     text-align: center;
     color: #402e32;
@@ -639,7 +639,7 @@ textarea {
 
 /*Terms and Conditions*/
 .t-and-c-heading {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #402e32;
     background-color: #fff8f0;
     display: block;
@@ -672,7 +672,7 @@ textarea {
 
 /*Thank you page*/
 #main-thank-you {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #402e32;
     text-align: center;
     background-color: #fff8f0;
@@ -688,7 +688,7 @@ textarea {
 /*FOOTER SECTION*/
 footer {
     background-color: #402e32;
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     padding: 1em;
     padding-top: 10px;
     margin-top: 20px;
