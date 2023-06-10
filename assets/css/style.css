@@ -864,4 +864,10 @@ footer a:hover {
         flex-direction: column;
     }
 }
+
+#contact-form-structure {
+    width: 60%;
+    background-color: #fff8f0;
+    margin-top: 400px;
+}
 }
