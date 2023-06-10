@@ -133,7 +133,23 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 + ### Contact/Booking Page
 
+-The Contact/ Booking page (from here referred to as Contact page) has the same navbar, background image, and footer as the Home Page.
 
+-The Contact page contains the full contact details for The Viking Experience UK. The page can be used to send a booking request, specifying experience and dates of interest, or to send a query to the company.
+
+-The interactive form has four sections:
+
+    * Personal Details -with open text fields for Name, E-mail address, and Telephone number. The Name and E-mail address fields are required, and the form will not send if they have not been completed. The required fields are marked with an asterisk and a red border which changes to brown once the field is completed.
+
+    * Booking -with dropdown menus with the dates available for each experience, and a checkbox to indicate the experience of interest.
+
+    * Open Query -with an open text box for any questions or queries for The Viking Experience UK (which can be completed and sent regardless of whether a booking is made).
+
+    * Submission -sets out the conditions for booking, including a link to the Terms and Conditions page (which opens in a new page), and radio buttons for the visitor's preferred method of contact (e-mail, telephone, or no preference). The method of contact is required, indicated by a red asterisk, and must be completed in order to send the form.
+
+    -Finally there is a button to submit the form.
+
+    -The page is responsive, with the sections narrowing for smaller screens.
 
 + ### Terms and Conditions Page
 
