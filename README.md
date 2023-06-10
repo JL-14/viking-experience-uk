@@ -1,4 +1,4 @@
-![The Viking Experience UK](assets/images/vikingexperience-logo.png)
+![The Viking Experience UK](/documentation/images/vikingexperience-logo.png)
 ---
 # *The Viking Experience UK*
 
@@ -31,6 +31,32 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 ## Features
 
 + ### Navbar
+
++ #### Navigation Bar
+
+-Positioned at the top of the page.
+
+-Contains the logo and name of The Viking Experience UK on the left hand side. The logo acts as a link to the Home Page from all parts of the website.
+
+-Contains navigation links on the right hand side:
+
+    * Home - leads to the Home Page where there is introductory information about the experiences and the company, as well as directions to The Viking Experience location.
+
+    * Packages - leads to the Packages Page where each experience package is explained in more detail.
+
+    * Contact/ Booking - leads to the Contact and Booking Page, where contact information can be found, as well as an online form for submitting queries and sending booking requests to The Viking Experience UK.
+
+-The links have an animation whereby each link is underlined when hovered over.
+
+-The navigation bar is simply and clearly set out, giving a good first impression for the user.
+
+![Navbar](/documentation/images/navbar.png)
+
+-The navigation bar is responsive:
+
+    * On tablets and mobile phones: 
+
+        - The navigation links are moved from horizontal to vertical alignment, and the full logo (comprising both logo and company name) is replaced with the logo only, to accommodate smaller screens.
 
 + ### Home Page
 
@@ -165,11 +191,14 @@ In order to confirm the functionality, responsiveness and presentation of the we
 -The website was deployed to GitHub Pages.
 
 -In order to deploy, the following process was followed:
-    1. Select the [GitHub repository](ADD) and go to Settings.
+    1. Select the [GitHub repository](https://github.com/JL-14/viking-experience-uk) and go to Settings.
     2. Select the **Main Branch** from the Source Dropdown menu, and click Save.
     3. The page will be refreshed automatically with a detailed report showing successful deployment.
 
 -The live link can be found [here](ADD)
+
+## Local Deployment
+
 
 ---
 
