@@ -32,7 +32,7 @@ main {
 
 /*Text styling*/
 .text {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
     padding: 20px;
     margin-left: 25px;
@@ -128,7 +128,7 @@ img {
 
 /*Package-links section*/
 .package-links {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
     font-size: 100%;
     font-weight: bold;
@@ -237,7 +237,7 @@ img {
 }
 
 .package-intro {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
     padding: 20px;
     margin: 400px 25px 25px 25px;
@@ -249,7 +249,7 @@ img {
 }
 
 .seafaring-package {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
     padding: 20px;
     margin-left: 25px;
@@ -258,7 +258,7 @@ img {
 }
 
 .camp-package {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
     padding: 20px;
     margin-top: 20px;
@@ -268,7 +268,7 @@ img {
 }
 
 .arts-crafts-package {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
     padding: 20px;
     margin-top: 20px;
@@ -285,7 +285,7 @@ img {
 }
 
 table {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
     background: #fff;
     padding: 20px;
@@ -393,7 +393,7 @@ td {
 
 .return {
     color: #402e32;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 80%;
     padding: 10px;
     padding-bottom: 25px;
@@ -401,7 +401,7 @@ td {
 
 .return-top {
     color: #402e32;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 80%;
     padding: 10px;
 }
@@ -415,7 +415,6 @@ td {
 /*CONTACT PAGE*/
 /*Page set-up*/
 #contact-form-structure {
-    height: 160vh;
     width: 60%;
     align-items: center;
     background-color: #fff8f0;
@@ -474,7 +473,7 @@ td {
     width: auto;
     height: 100%;
     background-color: #EBAF57;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     color: #402e32;
     border: 2px solid #D49444;
@@ -509,7 +508,7 @@ input[type=number] {
     width: auto;
     height: 100%;
     background-color: #EBAF57;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     color: #402e32;
     border: 2px solid #D49444;
@@ -520,7 +519,7 @@ input[type=number] {
 .dates {
     color: #402e32;
     background-color: #fff;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 100%;
     border: 1px solid #402e32;
     padding-left: 10px;
@@ -564,7 +563,7 @@ input[type=number] {
 
 #query-field {
     background-color: #EBAF57;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     color: #402e32;
     border: 2px solid #D49444;
@@ -585,7 +584,7 @@ textarea {
 /*Submit section*/
 #form-submit {
     border: none;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     color: #402e32;
 }
@@ -637,6 +636,11 @@ textarea {
     box-shadow: 0 6px 20px #402e32;
 }
 
+#contact-address {
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+}
+
 /*Terms and Conditions*/
 .t-and-c-heading {
     font-family: "Josefin Sans", sans-serif;
@@ -647,7 +651,7 @@ textarea {
 }
 
 #t-and-c-content {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
     background-color: #fff8f0;
     background-size: 100%;
