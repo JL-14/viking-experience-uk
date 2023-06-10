@@ -76,11 +76,17 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 -The introduction sets out a little of the history of the Viking arrival in England, and the further conquest of Norfolk. As such it establishes the rationale for The Viking Experience UK.
 
+[Intro](/documentation/images/vikingexperience-front-screen.png)
+
 + #### Experience Package Links
 
 -The Introduction is followed by links to the three experience packages on offer, each taking the form of a rounded image relevant to each experience.
 
+[Package Links](documentation/images/package-links.png)
+
 -The links are responsive, and re-arrange into two images above one for medium screens, and column for smaller screens.
+
+[Package Links Smaller](documentation/images/package-links-small-screen.png)
 
 + #### About Us
 
@@ -93,6 +99,8 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 -The Google Map is interactive, and visitors can click on it for a larger Google Map, directions, and other information provided by Google Maps.
 
 -The section is responsive, and is re-arranged into column format for smaller screens.
+
+[Location](/documentation/images/location.png)
 
 + #### Footer
 
@@ -121,7 +129,7 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 -Each section starts with two images relevant to the package, flanking a table setting out the location, type of activity, duration, and cost of the package.
 
-![Package Intro](/documentation/images/camp-package-details.png)
+[Package Intro](/documentation/images/camp-package-details.png)
 
 -Each experience is then described in detail, including detail of the activities, the rationale for the activities (links to the original Viking arrival in Norfolk), and the practical details of what to expect. Each section is accompanied by a relevant image representative of the experience.
 
@@ -141,19 +149,41 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
     * Personal Details -with open text fields for Name, E-mail address, and Telephone number. The Name and E-mail address fields are required, and the form will not send if they have not been completed. The required fields are marked with an asterisk and a red border which changes to brown once the field is completed.
 
+[Personal Details](/documentation/images/form-personal-details.png)
+
     * Booking -with dropdown menus with the dates available for each experience, and a checkbox to indicate the experience of interest.
 
+[Booking](/documentation/images/form-booking.png)
+
     * Open Query -with an open text box for any questions or queries for The Viking Experience UK (which can be completed and sent regardless of whether a booking is made).
+
+[Open Query](/documentation/images/form-open-query.png)
 
     * Submission -sets out the conditions for booking, including a link to the Terms and Conditions page (which opens in a new page), and radio buttons for the visitor's preferred method of contact (e-mail, telephone, or no preference). The method of contact is required, indicated by a red asterisk, and must be completed in order to send the form.
 
     -Finally there is a button to submit the form.
 
+[Submit](/documentation/images/form-submit.png)
+
     -The page is responsive, with the sections narrowing for smaller screens.
 
 + ### Terms and Conditions Page
 
+-The Terms and Conditions page has the same navbar, background image, and footer as the Home Page.
+
+-The page is accessible through a link on the Contact/ Booking page, and opens in a new window. There are no other links to the Terms and Conditions page.
+
+-The page contains the terms and conditions for booking with The Viking Experience UK.
+
+[Terms and Conditions](/documentation/images/terms-and-conditions.png)
+
 + ### Thank You Page
+
+-The Thank You page has the same navbar, background image, and footer as the Home Page.
+
+-The page is hidden until the submit button is pressed on the Contact page with all required fields completed. The thank you page has links in the navbar and footer for returning to the main website.
+
+[Thank You](/documentation/images/thank-you-page.png)
 
 ## Technologies Used
 
