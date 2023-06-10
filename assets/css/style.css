@@ -683,6 +683,7 @@ textarea {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 25px;
+    flex: 1 0 auto;
 }
 
 /*FOOTER SECTION*/
