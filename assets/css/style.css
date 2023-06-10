@@ -27,6 +27,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /*Text styling*/
@@ -138,9 +139,7 @@ img {
     justify-content: space-around;
     position: relative;
     background: #fff8f0;
-    margin-right: 45px;
     padding: 25px;
-    margin-left: 45px;
 }
 
 .package-links li {
@@ -188,7 +187,6 @@ img {
 }
 
 #location-text {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,7 +196,6 @@ img {
 #location {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
 }
 
@@ -415,8 +412,8 @@ td {
 /*Page set-up*/
 #contact-form-structure {
     height: 160vh;
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    align-items: center;
     background-color: #fff8f0;
     margin-top: 400px;
     display: flex;
@@ -461,6 +458,7 @@ td {
 /*Form Section*/
 #form-layout {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     position: relative;
     background-color: #fff8f0;
@@ -477,7 +475,6 @@ td {
     color: #402e32;
     border: 2px solid #D49444;
     border-style: inset;
-    margin-right: 10%;
     padding: 15px;
 }
 
@@ -557,8 +554,8 @@ input[type=number] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    top: 100%;
+    /* position: absolute;
+    top: 100%; */
 }
 
 #query-field {
