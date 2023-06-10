@@ -58,7 +58,15 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
         - The navigation links are moved from horizontal to vertical alignment, and the full logo (comprising both logo and company name) is replaced with the logo only, to accommodate smaller screens.
 
+![Navbar Smaller screens](/documentation/images/navbar-smaller-screens.png)
+
 + ### Home Page
+
+-The Home Page introduces the user to the concept of The Viking Experience UK, providing background to the history of Vikings in England (and Norfolk in particular), brief information about the company and the experiences (with links to the Packages page), and information about the location of The Viking Experience UK.
+
++ #### General background
+
+-
 
 + ### Packages Page
 
