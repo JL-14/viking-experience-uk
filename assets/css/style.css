@@ -372,7 +372,6 @@ td {
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    height: 25px;
     line-height: 25px;
     border-radius: 7px;
     border: none;
@@ -404,7 +403,6 @@ td {
     font-family: Source Sans Pro, sans-serif;
     font-size: 80%;
     padding: 10px;
-    padding-bottom: 25px;
 }
 
 .booking-return-buttons {
@@ -809,6 +807,19 @@ footer a:hover {
         align-items: center;
         margin: 0;
         margin-top: 15px;
+    }
+
+    .booking-return-buttons {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 0px;
+    }
+
+    .button {
+        margin-bottom: 25px;
     }
 
 /* For small screens sizes from 800px wide and down */
