@@ -34,9 +34,7 @@ main {
 .text {
     font-family: "Source Sans Pro", sans-serif;
     color: #402e32;
-    padding: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
+    padding-top: 20px;
 }
 
 h1,
@@ -140,6 +138,7 @@ img {
     position: relative;
     background: #fff8f0;
     padding: 25px;
+    margin-top: 25px;
 }
 
 .package-links li {
@@ -176,6 +175,7 @@ img {
 .about-background {
     background-color: #fff8f0;
     padding: 25px;
+    margin-bottom: 25px;
 }
 
 /*Location section*/
@@ -210,6 +210,7 @@ img {
 #address-details {
     width: 100%;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 #reception {
@@ -419,9 +420,9 @@ td {
     align-items: center;
     background-color: #fff8f0;
     margin-top: 400px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 25px; */
 }
 
 /*Intro section*/
@@ -557,8 +558,6 @@ input[type=number] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* position: absolute;
-    top: 100%; */
 }
 
 #query-field {
@@ -615,13 +614,15 @@ textarea {
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    margin: 10px 20px 20px 50px;
+    margin-top: 20px;
+    margin-left: 20px;
     height: 50px;
     line-height: 25px;
     border-radius: 7px;
     border: 2px solid #402e32;
     text-decoration: none;
     display: block;
+    align-items: center;
     outline: 0;
     cursor: pointer;
     box-shadow: 0 4px 14px 0 #402e32;
@@ -639,6 +640,7 @@ textarea {
 #contact-address {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 /*Terms and Conditions*/
@@ -753,10 +755,6 @@ footer a:hover {
         margin: 0px;
     }
 
-    #contact-form-structure {
-        height: 200vh;
-    }
-
     #t-and-c-content {
         height: 400vh;
     }
@@ -868,12 +866,5 @@ footer a:hover {
     #details-booking {
         flex-direction: column;
     }
-
-    #contact-form-structure {
-        height: 350vh;
-    }
-
-    .submit-button {
-        font-size: 60%;
-    }
-}}
+}
+}
