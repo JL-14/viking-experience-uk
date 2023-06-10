@@ -64,13 +64,76 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 -The Home Page introduces the user to the concept of The Viking Experience UK, providing background to the history of Vikings in England (and Norfolk in particular), brief information about the company and the experiences (with links to the Packages page), and information about the location of The Viking Experience UK.
 
-+ #### General background
++ #### General background and Cover Text
 
--
+-The general background is an image of five Viking ships approaching shore. The image was chosen as it was thematically highly relevant to the website, and the colour scheme of the image fitted with the colour palette for the website.
+
+-The background image is fixed, so that the sections appear to scroll over the image.
+
+-On the Home Page there is a cover text box with a semi-transparent background, with the welcome message motivating visitors to explore more.
+
++ #### Introduction
+
+-The introduction sets out a little of the history of the Viking arrival in England, and the further conquest of Norfolk. As such it establishes the rationale for The Viking Experience UK.
+
++ #### Experience Package Links
+
+-The Introduction is followed by links to the three experience packages on offer, each taking the form of a rounded image relevant to each experience.
+
+-The links are responsive, and re-arrange into two images above one for medium screens, and column for smaller screens.
+
++ #### About Us
+
+-The About Us section provides detail about The Viking Experience UK, including its founders and collaborations with other relevant organisations.
+
++ #### Location
+
+-The Location section gives detail of where The Viking Experience UK is based, including the full address, an image of the reception building, and an embedded Google Map of the location.
+
+-The Google Map is interactive, and visitors can click on it for a larger Google Map, directions, and other information provided by Google Maps.
+
+-The section is responsive, and is re-arranged into column format for smaller screens.
+
++ #### Footer
+
+-The Footer is at the base of each page, in a fixed position.
+
+-The Footer has links to the Home Page, Social Media, and the Contact page.
+
+-The links have animations in the form of a bottom line under the relevant link when hovered over.
 
 + ### Packages Page
 
+-The Packages page has the same navbar, background image, and footer as the Home Page.
+
+-The page provides detailed information about each of the three experience packages:
+    * The Seafaring Experience
+
+[Seafaring Package](/documentation/images/package-details-seafaring.png)
+
+    * The Camp Experience
+
+[Camp Package](/documentation/images/package-details-camp.png)
+
+    * The Arts and Crafts Experience
+
+[Arts and Crafts Package](/documentation/images/package-details-artscrafts.png)
+
+-Each section starts with two images relevant to the package, flanking a table setting out the location, type of activity, duration, and cost of the package.
+
+![Package Intro](/documentation/images/camp-package-details.png)
+
+-Each experience is then described in detail, including detail of the activities, the rationale for the activities (links to the original Viking arrival in Norfolk), and the practical details of what to expect. Each section is accompanied by a relevant image representative of the experience.
+
+-Each section ends with a table setting out the dates of upcoming experience packages, and also the number of spaces available for each event.
+
+-There is then a button that takes the visitor to the booking form, where they can send booking requests or queries about the experience. There are also links back to the Home Page, or back to the top of the Packages page, to make it as easy as possible for the user to navigate around the website. The buttons are responsive, and form into a column for smaller screens.
+
+-The Package sections are responsive, with images re-sizing for tablet-sized screens, and re-arranging into column format for mobile phone sized screens.
+
 + ### Contact/Booking Page
+
+
 
 + ### Terms and Conditions Page
 
