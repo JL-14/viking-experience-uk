@@ -46,7 +46,6 @@ h3 {
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
 }
 
 /*Header container*/
@@ -420,9 +419,6 @@ td {
     align-items: center;
     background-color: #fff8f0;
     margin-top: 400px;
-    /* display: flex;
-    flex-direction: column;
-    padding: 25px; */
 }
 
 /*Intro section*/
