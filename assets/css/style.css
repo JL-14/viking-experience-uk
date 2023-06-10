@@ -244,6 +244,10 @@ img {
     background-color: #fff8f0;
 }
 
+#provided-list li {
+    list-style-position: inside;
+}
+
 .seafaring-package {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
