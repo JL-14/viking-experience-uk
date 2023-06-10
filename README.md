@@ -72,11 +72,11 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 -On the Home Page there is a cover text box with a semi-transparent background, with the welcome message motivating visitors to explore more.
 
+[Intro](/documentation/images/vikingexperience-front-screen.png)
+
 + #### Introduction
 
 -The introduction sets out a little of the history of the Viking arrival in England, and the further conquest of Norfolk. As such it establishes the rationale for The Viking Experience UK.
-
-[Intro](/documentation/images/vikingexperience-front-screen.png)
 
 + #### Experience Package Links
 
@@ -224,7 +224,7 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 ### Wireframe
 
-![Wireframe for website](ADD)
+![Wireframe for website](/documentation/images/balsamiq-wireframes.pdf)
 
 - The wireframe for the website was greated using the Balsamiq wireframe tool, creating an initial outline of the website. The initial design was further developed as the website was realised, but the core concept and design remains consistent.
 
@@ -315,6 +315,11 @@ In order to confirm the functionality, responsiveness and presentation of the we
 -The live link can be found [here](ADD)
 
 ## Local Deployment
+
+
+---
+## Bugs
+
 
 
 ---
