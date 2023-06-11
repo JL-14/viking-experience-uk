@@ -206,7 +206,7 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 ### Colour Scheme
 
-![Color Palette](/assets/images/color-palette.png)
+![Color Palette](/documentation/images/colour-palette.png)
 
 - A soft light brown colour was chosen as the main background colour, as psychologically it is associated with warmth, nature, earthiness, reliability, and support. These properties match the theme of the website, which provides outdoor experiences and work with natural materials.
 
