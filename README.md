@@ -236,8 +236,7 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 ## Testing
 
-In order to confirm the functionality, responsiveness and presentation of the website, it was tested on a range of screen types and screen sizes:
-
+In order to confirm the functionality, responsiveness and presentation of the website, it was tested on a range of screen types and screen sizes, across Chrome, Firefox, and Edge browsers.
 
 ### Manual testing
 
@@ -349,7 +348,7 @@ In order to confirm the functionality, responsiveness and presentation of the we
 
 - Scores were good across the board, but the performance scores were lower than the ideal, due to the use of JPEG images on the website. In future versions the images will be replaced by more compressed image formats to improve performance scores. On testing with Chrome and Firefox browsers the performance was unproblematic and did not affect my use of the website.
 
-+ ### Accessibility
++ ### Accessibility Testing
 
 - The accessibility of the website for visitors with assistive technologies or other impairments was tested using the Google WAVE extension. 
 
