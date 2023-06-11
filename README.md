@@ -352,16 +352,39 @@ In order to confirm the functionality, responsiveness and presentation of the we
 
 ## Bugs
 
+### Existing Bugs
 
+1. There is a warning in DevTools on Chrome and Firefox browsers stating that: 
+
+"DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/content_autoplay_detection.js.map: System error: net::ERR_BLOCKED_BY_CLIENT"
+
+-The warning relates to the embedded Google Map in the Location section on the Home Page, and does not affect performance.
+
+2. The W3C CSS Validator returned five warnings relating to external third-party content in the code, none of which affect the user experience.
+
+3. On the very smallest screen sizes the word 'experiences' in the semi-transparent cover text box exceeds the background container, with the 'e' and the 's' appearing on or just outside the edge. 
+
+-The issue does not disrupt user experience, and will be addressed in future versions.
+
+4. The image-types (especially .jpeg) affect overall performance, without negatively affecting the user experience.
+
+-Lower resolution images, or images of a performance-friendly nature (e.g. .webp images) will be used in future versions.
+
+### Solved Bugs
+-A number of bugs were solved throughout the design of the website, on a running basis.
+
+-The greatest number of bugs related to the use of flex-boxes, and were resolved through changing display types and layouts.
+
+-There were also bugs related to the use of fixed heights affecting the responsivity of the website, solved through replacing with relative values.
 
 ---
 
 ## Future Improvements
--further refine responsive design elements to improve appearance on the smallest screens (especially small mobiles)
--add an up-to-date availability checker and the ability to book and pay online on the website
--add a custom 404 Error page
--add a gallery page
--add feedback functionality
+* further refine responsive design elements to improve appearance on the smallest screens (especially small mobiles)
+* add an up-to-date availability checker and the ability to book and pay online on the website
+* add a custom 404 Error page
+* add a gallery page
+* add feedback functionality
 
 ---
 
