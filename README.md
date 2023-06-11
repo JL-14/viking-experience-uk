@@ -396,11 +396,33 @@ In order to confirm the functionality, responsiveness and presentation of the we
 
 ## Credits
 
-+ #### Contents
++ #### Content
+
+- The idea, concept, and content for the website came from me (Jorgen Lovbakke).
+
+- In developing the idea and concept, I consulted "Viking Britain -A History" by Thomas Williams, published in 2017 by William Collins Publishers.
+
+- Inspiration for the use of a fixed background image came from the Code Institute's 'Love Running' project.
 
 + #### Media
 
+- Most of the images on the website were downloaded from [iStock](https://www.istockphoto.com/).
+
+-The images not from iStock were:
+* Reception image on Home Page: Clive Perrin / The Viking Longhouse Ancient Technology Centre Cranborne Dorset / CC BY-SA 2.0
+* Shipbuilding image on Packages page: Photo illustration: NDLA.no
+* Viking ship with rowers on Packages page: From 	Viking archive, Jarmeryk (archiwum własne wikingów, Jarmeryk)
+* Viking in bow of Viking ship on Packages page: From pl.pinterest.com
+* Viking cook on Packages page: GEOGRAPHY PHOTOS / UNIVERSAL IMAGES GROUP / GETTY IMAGES
+* Viking tent by the seaside on Packages page: Marcos Lima Silveira
+* Viking craftsman working with reeds on Packages page: https://www.northlincs.gov.uk/ Visit the Vikings site
+* Viking jewellery on Packages page: https://laptrinhx.com/
+* Carved dragon head on Packages page: Thorvald-Rhys Bjørnson
+
 + #### Tools
+
+- [coolors](https//:coolors.co) was used to create the colour palette
+- 
 
 ---
 
