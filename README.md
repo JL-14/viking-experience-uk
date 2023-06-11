@@ -252,6 +252,10 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 In order to confirm the functionality, responsiveness and presentation of the website, it was tested on a range of screen types and screen sizes, across Chrome, Firefox, and Edge browsers.
 
+The website displays correctly across the different browsers, and also across different screen sizes. The responsiveness of the website was tested on several screens (different width monitors, iPhone 14 Max, and other displays used by other users), and also through the [Responsive Viewer add-in](https://responsiveviewer.org/) on Google Chrome:
+
+![Responsive Viewer](/documentation/images/responsive-viewer.png)
+
 ### Manual testing
 
 | feature | action | expected result | tested | passed | comments |
@@ -428,9 +432,9 @@ In order to confirm the functionality, responsiveness and presentation of the we
 
 - The issue does not disrupt user experience, and will be addressed in future versions.
 
-4. The image-types (especially .jpeg) affect overall performance, without negatively affecting the user experience.
+4. At the smallest screen sizes (<400px) the edges of the header bar and footer bar are cropped -outside the on-screen display so does not affect user experience.
 
-- Lower resolution images, or images of a performance-friendly nature (e.g. .webp images) will be used in future versions.
+-The issue will be addressed in future versions.
 
 ### Solved Bugs
 - A number of bugs were solved throughout the design of the website, on a running basis.

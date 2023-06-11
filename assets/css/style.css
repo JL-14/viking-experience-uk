@@ -818,6 +818,7 @@ footer a:hover {
     .button {
         margin-bottom: 25px;
     }
+}
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
@@ -867,5 +868,4 @@ footer a:hover {
         width: 60%;
         background-color: #fff8f0;
         margin-top: 400px;
-}
 }
