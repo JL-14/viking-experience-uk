@@ -342,8 +342,14 @@ In order to confirm the functionality, responsiveness and presentation of the we
 
 ## Local Deployment
 
+-The Viking Experience UK website can be cloned in your IDE, creating a local copy. The following command will create the clone:
+
+- `git clone https://github.com/JL-14/viking-experience-uk
+
+- In Gitpod you can open the workspace [here](https://gitpod.io/#https://github.com/JL-14/viking-experience-uk)
 
 ---
+
 ## Bugs
 
 
