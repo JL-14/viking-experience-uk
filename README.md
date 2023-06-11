@@ -341,7 +341,7 @@ In order to confirm the functionality, responsiveness and presentation of the we
 ---
 
 ### Performance
-- Using Lighthouse in DevTools on the Chrome browser I checked the performance aspects of the site.
+- Using Lighthouse in DevTools on the Chrome browser I checked the performance of the website, which was very good across the board. The only flagged area was linked to the use of anchors for internal links which had no text attached and so were perceived by the Validator as affecting Search Engine Optimization (SEO).
 
 #### Home Page
 
@@ -362,8 +362,6 @@ In order to confirm the functionality, responsiveness and presentation of the we
 #### Thank You Page
 
 ![Thank You Page Lighthouse](/documentation/images/lighthouse-thankyou.png)
-
-- Scores were good across the board, but the performance scores were lower than the ideal, due to the use of JPEG images on the website. In future versions the images will be replaced by more compressed image formats to improve performance scores. On testing with Chrome and Firefox browsers the performance was unproblematic and did not affect my use of the website.
 
 ---
 
