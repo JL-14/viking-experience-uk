@@ -603,6 +603,7 @@ textarea {
     display: inline-block;
 }
 
+/*Submit button formatting taken from https://copy-paste-css.com/ -Next.js template used*/
 .submit-button {
     color: #fff8f0;
     background: #402e32;
@@ -862,9 +863,9 @@ footer a:hover {
     }
 }
 
-#contact-form-structure {
-    width: 60%;
-    background-color: #fff8f0;
-    margin-top: 400px;
+    #contact-form-structure {
+        width: 60%;
+        background-color: #fff8f0;
+        margin-top: 400px;
 }
 }
