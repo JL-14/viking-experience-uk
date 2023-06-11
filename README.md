@@ -6,7 +6,7 @@ The Viking Experience UK website promotes experience packages in Winton-on-Sea, 
 
 The website can be accessed [here](https://github.com/JL-14/viking-experience-uk/)
 
-![Responsive Mockup](PLACE URL HERE)
+![Responsive Mockup](/documentation/images/vikingexperience-mockup.png)
 
 ---
 ## User Stories
