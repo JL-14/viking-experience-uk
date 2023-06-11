@@ -278,8 +278,8 @@ In order to confirm the functionality, responsiveness and presentation of the we
 
 -The warnings all relate to embedded content on the website, and on testing with Firefox and Chrome browsers were not found to affect performance.
 
-+ ### Accessibility and Performance
--Using Lighthouse in DevTools on the Chrome browser I checked the performance and accessibility aspects of the site.
++ ### Performance
+-Using Lighthouse in DevTools on the Chrome browser I checked the performance aspects of the site.
 
 #### Home Page
 
@@ -302,6 +302,30 @@ In order to confirm the functionality, responsiveness and presentation of the we
 ![Thank You Page Lighthouse](/documentation/images/lighthouse-thankyou.png)
 
 -Scores were good across the board, but the performance scores were lower than the ideal, due to the use of JPEG images on the website. In future versions the images will be replaced by more compressed image formats to improve performance scores. On testing with Chrome and Firefox browsers the performance was unproblematic and did not affect my use of the website.
+
++ ### Accessibility
+
+-The accessibility of the website for visitors with assistive technologies or other impairments was tested using the Google WAVE extension. 
+
+-After making some adjustments to increase contrast, there were no accessibility errors, with some warnings about the length of some ARIA-label descriptions (the descriptions being on the long side) which I decided do not impair the accessibility of the website.
+
+![Home Page WAVE](/documentation/images/wave-home.png)
+
+#### Packages Page
+
+![Packages Page WAVE](/documentation/images/wave-packages.png)
+
+#### Contact Page
+
+![Contact Page WAVE](/documentation/images/wave-contact.png)
+
+#### Terms and Conditions Page
+
+![Terms and Conditions Page WAVE](/documentation/images/wave-tandc.png)
+
+#### Thank You Page
+
+![Thank You Page WAVE](/documentation/images/wave-thankyou.png)
 
 ---
 

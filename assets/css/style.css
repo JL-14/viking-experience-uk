@@ -72,7 +72,7 @@ img {
 .nav-links {
     font-family: "Josefin Sans", sans-serif;
     font-size: 150%;
-    color: #c09336;
+    color: #402e32;
     display: flex;
     flex-direction: row;
 }
@@ -90,7 +90,7 @@ img {
 }
 
 .nav-links a:hover {
-    border-bottom: 1px solid #c09336;
+    border-bottom: 1px solid #402e32;
 }
 
 /*HOME PAGE*/
@@ -367,8 +367,8 @@ td {
 
 .button {
     color: #fff8f0;
-    background: #c09336;
-    border: 2px solid #402e32;
+    background: #402e32;
+    border: 2px solid #c09336;
     font-weight: bold;
     text-align: center;
     padding: 10px;
@@ -531,7 +531,7 @@ input[type=number] {
 
 /*Validation of required entries*/
 .req {
-    color: red;
+    color: #402e32;
 }
 
 #name:invalid {
@@ -605,7 +605,7 @@ textarea {
 
 .submit-button {
     color: #fff8f0;
-    background: #c09336;
+    background: #402e32;
     border: 2px solid #402e32;
     font-weight: bold;
     text-align: center;
