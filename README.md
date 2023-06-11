@@ -279,27 +279,29 @@ In order to confirm the functionality, responsiveness and presentation of the we
 -The warnings all relate to embedded content on the website, and on testing with Firefox and Chrome browsers were not found to affect performance.
 
 + ### Accessibility and Performance
--Using Lighthouse in DevTools on the Chrome browser I confirmed that the performance and accessibility aspects of the site were good.
+-Using Lighthouse in DevTools on the Chrome browser I checked the performance and accessibility aspects of the site.
 
 #### Home Page
 
-![Home Page Lighthouse](ADD)
+![Home Page Lighthouse](/documentation/images/lighthouse-home.png)
 
 #### Packages Page
 
-![Packages Page Lighthouse](ADD)
+![Packages Page Lighthouse](/documentation/images/lighthouse-packages.png)
 
 #### Contact Page
 
-![Contact Page Lighthouse](ADD)
+![Contact Page Lighthouse](/documentation/images/lighthouse-contact.png)
 
 #### Terms and Conditions Page
 
-![Terms and Conditions Page Lighthouse](ADD)
+![Terms and Conditions Page Lighthouse](/documentation/images/lighthouse-tandc.png)
 
 #### Thank You Page
 
-![Thank You Page Lighthouse](ADD)
+![Thank You Page Lighthouse](/documentation/images/lighthouse-thankyou.png)
+
+-Scores were good across the board, but the performance scores were lower than the ideal, due to the use of JPEG images on the website. In future versions the images will be replaced by more compressed image formats to improve performance scores. On testing with Chrome and Firefox browsers the performance was unproblematic and did not affect my use of the website.
 
 ---
 
@@ -312,7 +314,7 @@ In order to confirm the functionality, responsiveness and presentation of the we
     2. Select the **Main Branch** from the Source Dropdown menu, and click Save.
     3. The page will be refreshed automatically with a detailed report showing successful deployment.
 
--The live link can be found [here](ADD)
+-The live link can be found [here](https://jl-14.github.io/viking-experience-uk/)
 
 ## Local Deployment
 
