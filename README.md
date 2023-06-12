@@ -4,7 +4,7 @@
 
 The Viking Experience UK website promotes experience packages in Winton-on-Sea, Norfolk, UK, whereby visitors can live like a Viking arriving in the UK in the 8th and 9th centuries. There are currently three packages available. Users can read about the experiences, see available dates, and send a query or a booking request.
 
-The website can be accessed [here](https://github.com/JL-14/viking-experience-uk/)
+The website can be accessed [here](https://jl-14.github.io/viking-experience-uk/)
 
 ![Responsive Mockup](/documentation/images/vikingexperience-mockup.png)
 
@@ -242,7 +242,7 @@ The website can be accessed [here](https://github.com/JL-14/viking-experience-uk
 
 ### Wireframe
 
-![Wireframe for website](/documentation/images/balsamiq-wireframes.pdf)
+[Wireframe for website](/documentation/images/balsamiq-wireframes.pdf)
 
 - The wireframe for the website was greated using the Balsamiq wireframe tool, creating an initial outline of the website. The initial design was further developed as the website was realised, but the core concept and design remains consistent.
 
@@ -271,9 +271,9 @@ The website displays correctly across the different browsers, and also across di
 | Instagram link in the footer | Click on the Instagram link | The user is redirected to the Instagram page | Yes | Yes | - |
 | Contact Us link in the footer | Click on the Contact Us link | The user is redirected to the Contact/ Booking page | Yes | Yes | - |
 | Home page | | | | | |
-| Seafaring package link on Home Page | Click on the Seafaring package link | The user is redirected to the Seafaring package on the Packages page | Yes | In progress | - |
-| Camp package link on Home Page | Click on the Camp package link | The user is redirected to the Camp package on the Packages page | Yes | In progress | - |
-| Arts and Crafts package link on Home Page | Click on the Arts and Crafts package link | The user is redirected to the Arts and Crafts package on the Packages page | Yes | In progress | - |
+| Seafaring package link on Home Page | Click on the Seafaring package link | The user is redirected to the Seafaring package on the Packages page | Yes | Yes | - |
+| Camp package link on Home Page | Click on the Camp package link | The user is redirected to the Camp package on the Packages page | Yes | Yes | - |
+| Arts and Crafts package link on Home Page | Click on the Arts and Crafts package link | The user is redirected to the Arts and Crafts package on the Packages page | Yes | Yes | - |
 | E-mail link in Location section | Click on the E-mail link | The user is redirected to the an e-mail client | Yes | Yes | - |
 | Packages page | | | | | |
 | "Go to Contact/ Booking" button under Seafaring package description | Click on the "Go to Contact/ Booking" button | The user is redirected to the contact page | Yes | Yes | - |
@@ -410,7 +410,7 @@ The website displays correctly across the different browsers, and also across di
 
 - The Viking Experience UK website can be cloned in your IDE, creating a local copy. The following command will create the clone:
 
-- `git clone https://github.com/JL-14/viking-experience-uk
+- `git clone https://github.com/JL-14/viking-experience-uk'
 
 - In Gitpod you can open the workspace [here](https://gitpod.io/#https://github.com/JL-14/viking-experience-uk)
 
@@ -434,7 +434,7 @@ The website displays correctly across the different browsers, and also across di
 
 4. At the smallest screen sizes (<400px) the edges of the header bar and footer bar are cropped -outside the on-screen display so does not affect user experience.
 
--The issue will be addressed in future versions.
+- The issue will be addressed in future versions.
 
 ### Solved Bugs
 - A number of bugs were solved throughout the design of the website, on a running basis.
@@ -485,7 +485,7 @@ The website displays correctly across the different browsers, and also across di
 
 - [coolors](https//:coolors.co) was used to create the colour palette
 - [Am I Responsive](https://ui.dev/amiresponsive) was used to create the multi-screen mockup for the README.md document
-- [WAVE Accessibility evaluator] (https://wave.webaim.org/) was used to test the accessibility of the website
+- [WAVE Accessibility evaluator](https://wave.webaim.org/) was used to test the accessibility of the website
 
 ---
 
