@@ -490,6 +490,7 @@ td {
 }
 
 /* Remove number spinner */
+/* The number spinner code is taken from https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -603,7 +604,7 @@ textarea {
     display: inline-block;
 }
 
-/*Submit button formatting taken from https://copy-paste-css.com/ -Next.js template used*/
+/*Submit button formatting is from https://copy-paste-css.com/ -Next.js template used*/
 .submit-button {
     color: #fff8f0;
     background: #402e32;
