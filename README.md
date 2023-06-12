@@ -242,10 +242,11 @@ The website can be accessed [here](https://jl-14.github.io/viking-experience-uk/
 
 ### Wireframe
 
-[Wireframe for website](/documentation/images/balsamiq-wireframes.pdf)
+![Wireframe for website](/documentation/images/wireframe.png)
 
 - The wireframe for the website was greated using the Balsamiq wireframe tool, creating an initial outline of the website. The initial design was further developed as the website was realised, but the core concept and design remains consistent.
 
+The full wireframe document can be found [here](/documentation/images/balsamiq-wireframes.pdf)
 ---
 
 ## Testing
